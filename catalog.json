@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-13T09:26:44.056546Z",
+  "generatedAt": "2026-10-13T12:47:46.696079Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -19,8 +19,58 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e--7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf",
+      "revision": "0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116",
+      "name": "深色试作 · 全景夜航",
+      "description": "首部影片背景作为宽银幕画面，上下黑边、左侧大标题与暗幕。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "全景夜航",
+      "packageSha256": "40cbb2b36bde7f76e3eb6691a1853e04b8672bd418194e34ee0aaac11b1d387e",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf--0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "535a8310a4b65fca520119480eb7c5d9902490dae78cf8d07505a0c4bbbaea2d",
+      "revision": "e0a0ab25f46cad8e105afb17d49c60a120bb84107e50a99c75303948b7dac6e3",
+      "name": "深色试作 · 午夜阶梯",
+      "description": "五张直立海报沿阶梯逐级上升，午夜蓝底色与独立图号。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "午夜阶梯",
+      "packageSha256": "1d97287086caaae2a8a91cd41539752c87c6a2f9846444620dfc9f4bedc213d5",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%8D%88%E5%A4%9C%E9%98%B6%E6%A2%AF/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/535a8310a4b65fca520119480eb7c5d9902490dae78cf8d07505a0c4bbbaea2d--e0a0ab25f46cad8e105afb17d49c60a120bb84107e50a99c75303948b7dac6e3.zip",
       "downloadCount": 0,
       "downloadSources": [
         {
@@ -44,13 +94,13 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490--f591019b8e3eea3fd852c895fd59798f17d0cfbdfda8799469f14b5444ac3f0f.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -69,7 +119,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb--e52a751680c81581b75e9d37698deeb3cd94d86e75060fa25665ac4ee229d288.zip",
       "downloadCount": 0,
       "downloadSources": [
@@ -94,13 +144,13 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--1293577e6043159350b31624094672aee15cc82a93a54314dae0e0ff04e4cf5c.zip",
-      "downloadCount": 0,
+      "downloadCount": 3,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 3
         }
       ]
     },
@@ -119,7 +169,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c--89fe110adf5164dc41de0320a5b27ce8caa4582ab3b12d98a0299fa84d2e0d0b.zip",
       "downloadCount": 0,
       "downloadSources": [
@@ -144,7 +194,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c--360eefc421f4fec836088a7559ebe237764415fc7cc6c8fd6357d83c1938c7a2.zip",
       "downloadCount": 0,
       "downloadSources": [
@@ -169,7 +219,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d--bde708bf95e0d9adf363093d991b0d434a88174a50f778f2f8972b194c93df47.zip",
       "downloadCount": 0,
       "downloadSources": [
@@ -194,7 +244,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd--72e67da4391a8e136b563377e7f9cc6facb28d8e8b1aded9eb541664d815ec41.zip",
       "downloadCount": 0,
       "downloadSources": [
@@ -219,8 +269,33 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339--5ce48a8aa7662b19d561e2d388a8ffd8a2e67165b0751e33b8a57b59a5bf0ceb.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "410bc7cc1f38bf3b503da08c4b33ddc9f5f730ed5befd652f263b89cb55fd018",
+      "revision": "dde5769ff8ca65d2dbabd285f856096e532e1d4a303d934f34f3c2c084695137",
+      "name": "深色试作 · 碎片棱镜",
+      "description": "九张海报裁成菱形碎片，错落排列在右侧，左侧大标题。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "碎片棱镜",
+      "packageSha256": "99b170b701be8e3485bb9f3bc6e2a36ac32d49d8e44cab5504e2813806247e56",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E7%A2%8E%E7%89%87%E6%A3%B1%E9%95%9C/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/410bc7cc1f38bf3b503da08c4b33ddc9f5f730ed5befd652f263b89cb55fd018--dde5769ff8ca65d2dbabd285f856096e532e1d4a303d934f34f3c2c084695137.zip",
       "downloadCount": 0,
       "downloadSources": [
         {
@@ -244,13 +319,13 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -269,13 +344,13 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -294,13 +369,38 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d--e408d8398516c98892a5753f954653d1de5c323378a81007f42c96f541813957.zip",
-      "downloadCount": 2,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 2
+          "downloadCount": 4
+        }
+      ]
+    },
+    {
+      "id": "e221db84e5be12d62cda1c30307e5d7c9d712949454c45fda2f8384eedfcbcca",
+      "revision": "6c7375316622f7d3282d6063e4a53da089893326b4ac5e2bd86c425d8f81e6ab",
+      "name": "深色试作 · 赤焰快门",
+      "description": "三幅长条海报裁成斜向快门，暗红背景、珊瑚色细边。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "赤焰快门",
+      "packageSha256": "220f347a16d44db497a1d6152563ae293e9df4f9500007afc83ff5d7f4c43950",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E8%B5%A4%E7%84%B0%E5%BF%AB%E9%97%A8/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e221db84e5be12d62cda1c30307e5d7c9d712949454c45fda2f8384eedfcbcca--6c7375316622f7d3282d6063e4a53da089893326b4ac5e2bd86c425d8f81e6ab.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
         }
       ]
     },
@@ -319,13 +419,63 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54--0cf7d62e5e0bc1598793da0693c706d495092cf56fbdeee74705e8440e2bbcab.zip",
-      "downloadCount": 1,
+      "downloadCount": 3,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 1
+          "downloadCount": 3
+        }
+      ]
+    },
+    {
+      "id": "d27269b8880726ae30d26b10e26836c4bd6b91ab321a5c73f3470898fe486288",
+      "revision": "184d31c2aadfb1b33c8d4b21f432546503a576e4c1fd8b3cdf94a47591ed81fb",
+      "name": "深色试作 · 银幕折页",
+      "description": "两幅画面组成向中央收拢的折页银幕，带书脊阴影。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "银幕折页",
+      "packageSha256": "f28e7b36dd1e83c0d0a6c9649505cd947f24da1da245e5aaa7c8f29cbf53e6de",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%93%B6%E5%B9%95%E6%8A%98%E9%A1%B5/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d27269b8880726ae30d26b10e26836c4bd6b91ab321a5c73f3470898fe486288--184d31c2aadfb1b33c8d4b21f432546503a576e4c1fd8b3cdf94a47591ed81fb.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "b0dac9ad87442c019357c28c8e11f4f3689b610d91fcc0d2d1c2c5d9db1de51a",
+      "revision": "b809703a13237cb5bcae0f6817615c1a3082e5cc917248db80a72b61669a6186",
+      "name": "深色试作 · 霓虹橱窗",
+      "description": "一幅大图与三幅横向小图组成橱窗，细青色边框与错位光框。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "霓虹橱窗",
+      "packageSha256": "270c6f832290054f3e15bf19b0bdbe670a99347f701cbd4fe46bf71020230566",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%9C%93%E8%99%B9%E6%A9%B1%E7%AA%97/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b0dac9ad87442c019357c28c8e11f4f3689b610d91fcc0d2d1c2c5d9db1de51a--b809703a13237cb5bcae0f6817615c1a3082e5cc917248db80a72b61669a6186.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
         }
       ]
     },
@@ -344,8 +494,33 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6f000d0074f9dd35c1d50519984fbe6bb895fcea/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--ba09d0a69e01197918095183ed04aeada372757418681fe994a800795030d292.zip",
+      "downloadCount": 1,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 1
+        }
+      ]
+    },
+    {
+      "id": "df6b71418de17e0a1b76fd2bbb157c3ae10b5086c01ff1289f5d8c324d7f68f1",
+      "revision": "ad8c947d5932913009866e1301c573e278ecf6658a3a535804b3eb919bb1e04f",
+      "name": "深色试作 · 黑金展台",
+      "description": "炭黑与香槟金，三张海报陈列在高低展台上，左侧大标题。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "黑金展台",
+      "packageSha256": "069c1e8062c851f30113de89e9b468a7a48464164d85b62ae5cd6d4768684c74",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%BB%91%E9%87%91%E5%B1%95%E5%8F%B0/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/df6b71418de17e0a1b76fd2bbb157c3ae10b5086c01ff1289f5d8c324d7f68f1--ad8c947d5932913009866e1301c573e278ecf6658a3a535804b3eb919bb1e04f.zip",
       "downloadCount": 0,
       "downloadSources": [
         {
