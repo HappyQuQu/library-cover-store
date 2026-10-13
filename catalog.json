@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-13T12:47:46.696079Z",
+  "generatedAt": "2026-10-13T16:05:27.049348Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -21,11 +21,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e--7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -46,11 +46,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf--0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -71,11 +71,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%8D%88%E5%A4%9C%E9%98%B6%E6%A2%AF/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/535a8310a4b65fca520119480eb7c5d9902490dae78cf8d07505a0c4bbbaea2d--e0a0ab25f46cad8e105afb17d49c60a120bb84107e50a99c75303948b7dac6e3.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -121,11 +121,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb--e52a751680c81581b75e9d37698deeb3cd94d86e75060fa25665ac4ee229d288.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -146,11 +146,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--1293577e6043159350b31624094672aee15cc82a93a54314dae0e0ff04e4cf5c.zip",
-      "downloadCount": 3,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 3
+          "downloadCount": 4
         }
       ]
     },
@@ -171,11 +171,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c--89fe110adf5164dc41de0320a5b27ce8caa4582ab3b12d98a0299fa84d2e0d0b.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -196,11 +196,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c--360eefc421f4fec836088a7559ebe237764415fc7cc6c8fd6357d83c1938c7a2.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -221,11 +221,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d--bde708bf95e0d9adf363093d991b0d434a88174a50f778f2f8972b194c93df47.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -246,11 +246,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd--72e67da4391a8e136b563377e7f9cc6facb28d8e8b1aded9eb541664d815ec41.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -271,11 +271,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339--5ce48a8aa7662b19d561e2d388a8ffd8a2e67165b0751e33b8a57b59a5bf0ceb.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -296,11 +296,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E7%A2%8E%E7%89%87%E6%A3%B1%E9%95%9C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/410bc7cc1f38bf3b503da08c4b33ddc9f5f730ed5befd652f263b89cb55fd018--dde5769ff8ca65d2dbabd285f856096e532e1d4a303d934f34f3c2c084695137.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -321,11 +321,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7.zip",
-      "downloadCount": 2,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 2
+          "downloadCount": 4
         }
       ]
     },
@@ -346,11 +346,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef.zip",
-      "downloadCount": 1,
+      "downloadCount": 3,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 1
+          "downloadCount": 3
         }
       ]
     },
@@ -396,11 +396,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E8%B5%A4%E7%84%B0%E5%BF%AB%E9%97%A8/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e221db84e5be12d62cda1c30307e5d7c9d712949454c45fda2f8384eedfcbcca--6c7375316622f7d3282d6063e4a53da089893326b4ac5e2bd86c425d8f81e6ab.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -446,11 +446,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%93%B6%E5%B9%95%E6%8A%98%E9%A1%B5/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d27269b8880726ae30d26b10e26836c4bd6b91ab321a5c73f3470898fe486288--184d31c2aadfb1b33c8d4b21f432546503a576e4c1fd8b3cdf94a47591ed81fb.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -471,11 +471,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%9C%93%E8%99%B9%E6%A9%B1%E7%AA%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b0dac9ad87442c019357c28c8e11f4f3689b610d91fcc0d2d1c2c5d9db1de51a--b809703a13237cb5bcae0f6817615c1a3082e5cc917248db80a72b61669a6186.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -496,11 +496,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--ba09d0a69e01197918095183ed04aeada372757418681fe994a800795030d292.zip",
-      "downloadCount": 1,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 1
+          "downloadCount": 2
         }
       ]
     },
@@ -521,11 +521,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/4097b7ee0cafca16ede6c2f6defaa3b31d5b975c/%E9%BB%91%E9%87%91%E5%B1%95%E5%8F%B0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/df6b71418de17e0a1b76fd2bbb157c3ae10b5086c01ff1289f5d8c324d7f68f1--ad8c947d5932913009866e1301c573e278ecf6658a3a535804b3eb919bb1e04f.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     }
