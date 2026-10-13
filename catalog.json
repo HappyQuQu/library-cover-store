@@ -1,7 +1,99 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-13T07:33:41.884199Z",
+  "generatedAt": "2026-10-13T07:38:17.865291Z",
   "pendingCount": 0,
-  "templates": []
+  "templates": [
+    {
+      "id": "35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490",
+      "revision": "6a1b029c9f316720a71ace96ab785f156ba8f0172a778528c6e4ad75122d8eb6",
+      "name": "试作 · 四幕蒙太奇",
+      "description": "四幅横向裁切画面铺满四角，中央横贯标题带，适合强调多部影片的分类封面。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "四幕蒙太奇",
+      "packageSha256": "6142c4871af25c7152aba8dba04b33b1a1a38e9e1c161967df6df675b10145b9",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490--6a1b029c9f316720a71ace96ab785f156ba8f0172a778528c6e4ad75122d8eb6.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47",
+      "revision": "57629c8505f2cb772ac9fe1e53b94ac52e68fd46ca50026c57c6dc78f2fc2aa6",
+      "name": "试作 · 影像画册",
+      "description": "上方刊物式大标题、左下横向主视觉、右侧双图与图注的杂志编排。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "影像画册",
+      "packageSha256": "d21b54e264fa2c55ed3ed910fbe0eb0d7f4c0557890e50637327ba5bd2f5e262",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--57629c8505f2cb772ac9fe1e53b94ac52e68fd46ca50026c57c6dc78f2fc2aa6.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153",
+      "revision": "d9389b6377596e0eb168c6da7645fb56aeb6003c8be2e6fb4df20ff5e6bacfa2",
+      "name": "试作 · 票根收藏",
+      "description": "大幅票根纸面、左侧单张海报、右侧主副标题，带齿孔与编号装饰。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "票根收藏",
+      "packageSha256": "091fa2ad836cd5c7ba77a15be6f7a6f54d0901506825a6186d48efd260cd9a10",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--d9389b6377596e0eb168c6da7645fb56aeb6003c8be2e6fb4df20ff5e6bacfa2.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261",
+      "revision": "4887fb931d0a3f9919cd9a6e658c7c20de32637779a5c18d95c4e849e855c704",
+      "name": "试作 · 胶片放映",
+      "description": "横贯画面的四格胶片与上下齿孔，底部大标题；四张图片按横向画幅裁切。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "胶片放映",
+      "packageSha256": "f0006d7be3ccd5c2f34eb191748e5087f3217e57d05c5294b7397d6482c087e3",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--4887fb931d0a3f9919cd9a6e658c7c20de32637779a5c18d95c4e849e855c704.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d",
+      "revision": "192a74da5622177972e629fc62bbdd968f429f4849ed042bd432fa82c4513318",
+      "name": "试作 · 蜂巢拼图",
+      "description": "七张六边形海报组成蜂巢，底部主副标题与浅色画册背景。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "蜂巢拼图",
+      "packageSha256": "1c52dc81619d47fea9a25e717eef3b8a60bc83c9eb943a5acb2d6c63aa9ddbbf",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d--192a74da5622177972e629fc62bbdd968f429f4849ed042bd432fa82c4513318.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54",
+      "revision": "698b177293378594752745de1e80922f7c8e2ad3a002d41e8cec4965f08f7186",
+      "name": "试作 · 轨道星图",
+      "description": "五枚圆形海报沿椭圆轨道分布，标题位于中央留白，带细线与星图节点。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "轨道星图",
+      "packageSha256": "76ea529d07081a0894ecf9c956dc86db274a5176c30defd42108d7ce3e015b09",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54--698b177293378594752745de1e80922f7c8e2ad3a002d41e8cec4965f08f7186.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64",
+      "revision": "103c61860a90c9969a697c1901be2bcc411de1bc199f625dcefec2a4848fd33e",
+      "name": "试作 · 黑胶唱片",
+      "description": "左侧唱片刻纹与圆形海报唱片标签，右侧标题和两枚独立圆形封面。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "黑胶唱片",
+      "packageSha256": "7f645588e0238ea647f374f4c93ec27a6919a7d8edf532105216157f9201c9fd",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--103c61860a90c9969a697c1901be2bcc411de1bc199f625dcefec2a4848fd33e.zip",
+      "downloadCount": 0
+    }
+  ]
 }
