@@ -67,9 +67,46 @@
 
 ## 提交模板
 
-### 1. 从应用导出
+可以选择两种制作方式：从应用导出现有设计，或克隆仓库，用 Codex、Claude Code 等 AI 工具制作新模板。完成后都按下面的文件格式、校验和 Pull Request 流程提交。
+
+### 方式一：从应用导出
 
 在应用「模板库」找到设计，点击「导出」。解压下载的 ZIP，得到 `template.json` 和 `preview.jpg`。
+
+### 方式二：克隆仓库，用 AI 制作
+
+无需先在设计器中手工搭建：把这个项目交给 Codex、Claude Code 等 AI 工具，参考现有模板生成可编辑的设计。
+
+1. 克隆本仓库，在 AI 工具中打开 `library-cover-store` 项目目录：
+
+   ```sh
+   git clone https://github.com/HappyQuQu/library-cover-store.git
+   cd library-cover-store
+   ```
+
+   如果准备贡献，也可以先在 GitHub Fork，再克隆自己的 Fork。直接克隆官方仓库也能在本机制作用于测试的模板；提交时需将改动推送到自己的 Fork，再发起 Pull Request。
+
+2. 让 AI 先阅读本 README 和几套现有的 `template.json`，再说明想要的风格、配色、海报数量、标题布局和作者信息。可以复制以下提示词，并替换方括号中的内容：
+
+   ```text
+   请先阅读 README.md 和现有模板，为 Library Cover Studio 制作一套新的封面模板。
+   设计需求：[填写风格、配色、海报数量和标题布局]
+   模板名称：[填写名称]；作者：[填写名称和主页]；初始版本：1.0.0。
+   在仓库根目录创建独立模板文件夹，提供 template.json 和一张 preview.jpg/png/webp。
+   参考现有模板的 Fabric 画布结构，canvasJson 必须是 JSON 字符串，保留标题变量和海报变量，
+   让设计可以在应用中编辑并用于自动化。
+   填写 version、author、description 和 changelog；JSON 与预览图合计不超过 5 MB。
+   预览图必须来自实际模板渲染，与设计一致。
+   同步更新 GALLERY.md；模板数量变化时更新 README.md 中的数量和列表。
+   更新已有模板时保留文件夹名称，并提高版本号。
+   运行 python3 scripts/publish.py check 和 python3 scripts/publish.py build，
+   再将生成的单套 ZIP 导入 Library Cover Studio，检查编辑、预览和自动化渲染。
+   若无法完成渲染验证，请说明尚待验证的项目。
+   完成后说明改动文件和验证结果，并准备 Pull Request 描述。
+   ```
+
+3. 根据 AI 的结果继续调整，按下文校验、打包，再导入应用检查。Store 仓库提供模板示例与打包校验；实际预览图可在 Library Cover Studio 导入设计、保存并导出后取得。需要 AI 自动渲染时，可同时提供 Studio 项目中的模板渲染代码。
+4. 提交模板文件夹、图鉴和必要的 README 更新，向本仓库发起 Pull Request。AI 生成的模板同样需要通过校验，并确认预览与实际渲染一致。
 
 ### 2. 建立模板文件夹
 
