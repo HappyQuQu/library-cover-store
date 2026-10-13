@@ -1,0 +1,1 @@
+# library-cover-store
