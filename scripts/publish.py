@@ -12,7 +12,7 @@ import subprocess
 import time
 from datetime import datetime, timezone
 from urllib.error import HTTPError
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 import zipfile
 
@@ -26,6 +26,31 @@ RELEASE_PATTERN = re.compile(r'^store-(\d{5,})$')
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
+
+
+def metadata(data):
+    result = {'version': data.get('version', '1.0.0'), 'changelog': data.get('changelog', '')}
+    version_pattern = r'(0|[1-9]\d{0,8})\.(0|[1-9]\d{0,8})\.(0|[1-9]\d{0,8})'
+    if not isinstance(result['version'], str) or len(result['version']) > 32 or not re.fullmatch(version_pattern, result['version']):
+        raise ValueError('version 必须是 1.0.0 格式的版本号')
+    if not isinstance(result['changelog'], str) or len(result['changelog']) > 10000:
+        raise ValueError('changelog 必须是字符串，最多 10000 字符')
+    if data.get('minAppVersion') is not None:
+        minimum = data['minAppVersion']
+        if not isinstance(minimum, str) or len(minimum) > 32 or not re.fullmatch(version_pattern, minimum):
+            raise ValueError('minAppVersion 必须是 1.0.0 格式的版本号')
+        result['minAppVersion'] = minimum
+    if data.get('author') is not None:
+        author = data['author']
+        if not isinstance(author, dict) or not isinstance(author.get('name'), str) or not author['name'].strip() or len(author['name'].strip()) > 100:
+            raise ValueError('author 必须包含 1–100 字符的 name')
+        result['author'] = {'name': author['name'].strip()}
+        if 'url' in author:
+            url = author['url']
+            if not isinstance(url, str) or len(url) > 500 or not url.startswith(('http://', 'https://')) or urlsplit(url).scheme not in ('http', 'https') or not urlsplit(url).hostname:
+                raise ValueError('author.url 必须是 HTTP 或 HTTPS 地址')
+            result['author']['url'] = url
+    return result
 
 
 def scan_templates(root):
@@ -75,7 +100,7 @@ def scan_templates(root):
             raise ValueError(f'{directory.name}: 预览图必须是 JPEG、PNG 或 WebP 图片')
         template_id = digest(directory.name.encode('utf-8'))
         revision = digest(raw_json + b'\0' + preview)
-        result.append({'id': template_id, 'revision': revision, 'name': name, 'description': description,
+        result.append({**metadata(data), 'id': template_id, 'revision': revision, 'name': name, 'description': description,
                        'width': data['width'], 'height': data['height'], 'folder': directory.name,
                        'previewFile': preview_file.name, 'templatePath': template_file, 'previewPath': preview_file,
                        'assetName': f'{template_id}--{revision}.zip'})
@@ -211,6 +236,7 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
             raise ValueError(f"{item['folder']}: Release 附件校验不一致，请勿手工替换附件")
         entry = {key: item[key] for key in ('id', 'revision', 'name', 'description', 'width', 'height', 'folder')}
         entry['packageSha256'] = checksum
+        entry.update({key: item[key] for key in ('version', 'author', 'changelog', 'minAppVersion') if key in item})
         entry.update({'previewUrl': f"https://raw.githubusercontent.com/{github.repository}/{source_sha}/{quote(item['folder'], safe='')}/{item['previewFile']}",
                       'packageUrl': asset['browser_download_url'], 'downloadCount': counts.get(item['id'], 0)})
         entries.append(entry)

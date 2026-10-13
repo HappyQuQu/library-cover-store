@@ -157,6 +157,27 @@ class PublishingTests(unittest.TestCase):
         self.assertEqual(request.call_args_list[0].kwargs['accept'], 'application/vnd.github.object+json')
         self.assertEqual(request.call_args_list[1].kwargs['accept'], 'application/vnd.github.raw+json')
 
+    def test_metadata_is_preserved_in_catalog_and_exported_package(self):
+        directory = self.template()
+        data = json.loads((directory / 'template.json').read_text())
+        data.update({'version': '1.2.0', 'author': {'name': 'HappyQuQu', 'url': 'https://github.com/HappyQuQu'},
+                     'changelog': '改善海报裁切', 'minAppVersion': '1.5.0'})
+        (directory / 'template.json').write_text(json.dumps(data, ensure_ascii=False))
+        client = FakeGitHub()
+        catalog = self.run_publish(client)
+        entry = catalog['templates'][0]
+        for field in ('version', 'author', 'changelog', 'minAppVersion'):
+            self.assertEqual(entry[field], data[field])
+        with zipfile.ZipFile(io.BytesIO(publisher.make_package(publisher.scan_templates(self.root)[0]))) as archive:
+            self.assertEqual(json.loads(archive.read('template.json'))['author'], data['author'])
+
+    def test_legacy_metadata_defaults_and_invalid_fields(self):
+        self.assertEqual(publisher.metadata({}), {'version': '1.0.0', 'changelog': ''})
+        for data in ({'version': '1.0'}, {'version': '01.0.0'}, {'author': 'someone'},
+                     {'author': {'name': 'Author', 'url': 'javascript:alert(1)'}}, {'minAppVersion': 'latest'}, {'changelog': []}):
+            with self.subTest(data=data), self.assertRaises(ValueError):
+                publisher.metadata(data)
+
 
 if __name__ == '__main__':
     unittest.main()
