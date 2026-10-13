@@ -86,6 +86,7 @@ class PublishingTests(unittest.TestCase):
             second = self.run_publish(client)
         self.assertEqual(client.uploads, 1)
         self.assertEqual(second['templates'][0]['downloadCount'], 17)
+        self.assertEqual(second['templates'][0]['downloadSources'], [{'releaseId': client.releases[0]['id'], 'downloadCount': 17}])
         (directory / 'preview.jpg').write_bytes(b'\xff\xd8\xffupdated')
         third = self.run_publish(client)
         self.assertEqual(client.uploads, 2)

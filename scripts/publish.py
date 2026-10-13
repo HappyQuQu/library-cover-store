@@ -183,7 +183,7 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
     previous_entries = {item['id']: item for item in (previous or {}).get('templates', [])}
     releases = [release for release in github.pages('/releases') if RELEASE_PATTERN.fullmatch(release['tag_name']) and not release['draft']]
     releases.sort(key=lambda release: int(RELEASE_PATTERN.fullmatch(release['tag_name'])[1]))
-    assets, counts = {}, {}
+    assets, counts, sources = {}, {}, {}
     for release in releases:
         release['_assets'] = github.pages(f"/releases/{release['id']}/assets")
         for asset in release['_assets']:
@@ -192,6 +192,8 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
                 continue
             assets[asset['name']] = asset
             counts[match[1]] = counts.get(match[1], 0) + asset['download_count']
+            source = sources.setdefault(match[1], {}).setdefault(release['id'], {'releaseId': release['id'], 'downloadCount': 0})
+            source['downloadCount'] += asset['download_count']
     uploads = 0
     for item in items:
         if item['assetName'] in assets or uploads >= upload_limit:
@@ -223,7 +225,7 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
             pending += 1
             old = previous_entries.get(item['id'])
             if old:
-                entries.append({**old, 'downloadCount': counts.get(item['id'], old['downloadCount'])})
+                entries.append({**old, 'downloadCount': counts.get(item['id'], old['downloadCount']), 'downloadSources': list(sources.get(item['id'], {}).values())})
             continue
         old = previous_entries.get(item['id'])
         checksum = item.get('packageSha256')
@@ -238,7 +240,11 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
         entry['packageSha256'] = checksum
         entry.update({key: item[key] for key in ('version', 'author', 'changelog', 'minAppVersion') if key in item})
         entry.update({'previewUrl': f"https://raw.githubusercontent.com/{github.repository}/{source_sha}/{quote(item['folder'], safe='')}/{item['previewFile']}",
-                      'packageUrl': asset['browser_download_url'], 'downloadCount': counts.get(item['id'], 0)})
+                      'packageUrl': asset['browser_download_url'], 'downloadCount': counts.get(item['id'], 0),
+                      'downloadSources': list(sources.get(item['id'], {}).values())})
+        owner = next(release for release in releases if asset in release['_assets'])
+        if not any(source['releaseId'] == owner['id'] for source in entry['downloadSources']):
+            entry['downloadSources'].append({'releaseId': owner['id'], 'downloadCount': 0})
         entries.append(entry)
     catalog = {'version': 1, 'repository': github.repository,
                'generatedAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
