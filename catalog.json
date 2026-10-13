@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-13T19:44:35.094416Z",
+  "generatedAt": "2026-10-13T21:20:08.691719Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -22,11 +22,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E4%B8%89%E8%A7%92%E6%8B%BC%E7%89%88/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/356aa57e8048b0a2e402613fd38b47c65564c2b674cafa5df63b671d9a65e1d9--d9b34e256a09cf398e479a8f5058d016990a11cd145fcec2ea7f7becdf247c56.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -48,11 +48,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E4%BA%91%E7%AB%AF%E4%B9%A6%E7%AD%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cd8068de202132a7554a988c57842fe7a80306a17559a4b8c4dbc48f2f8b6b24--e2703a703345fd4c497909bb0dddcc7035982ac7c3f945b285e3b67b4004726f.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -74,11 +74,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E4%BA%A4%E9%94%99%E4%B9%A6%E8%84%8A/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/72527240009c77025772f4029b5ebecb9069f58f0e5d72c70e005c4b9ba6a206--0032c50418a1d717623a07d221b56cdb3ada82022115d32dbcfc23ec97f86f3c.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -175,11 +175,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%8F%8C%E9%A1%B5%E5%AF%B9%E7%85%A7/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/ba8500c801675d001fb171777d9be37b5e70d2d6773a7a7d1a4ec15c4d8f321d--ab9fbbe3d189ca8b97e508b00928dd50e67e3fe5b77eb2e710cd809de8df3609.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -251,11 +251,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%9C%B0%E5%B9%B3%E9%93%B6%E5%B9%95/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/156a604666a6a557af330cd9264e95bd5efde97ff9b2d702eefb49a904a14ce5--1e5d48dd068b5f944a228cb844a844b5a7b03c85c8b39fc08d5ba2d72747539a.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -277,11 +277,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%A4%8D%E5%8F%A4%E7%BB%88%E7%AB%AF/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cebb77d1ea3079044284023d7f20c24a7cfc843ba258d42c000d7e568787f9f0--6f63bf44829507ba8b07a8216d874bad2108a3628e001d6cc17ddb325e1e6a60.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -303,11 +303,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%A4%9C%E5%88%8A%E5%B0%81%E9%9D%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/a2a91159b9f6fe99265e86cb747f1957b579d2aa6fa331aa2c15959ee1ed7a10--aa01e01986a0cf60ac0a9574280b0d0ff85547ebca75ff9bb022def9d190a4d0.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -329,11 +329,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%AE%9D%E7%9F%B3%E5%88%87%E9%9D%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f42001b654879694374e461f0652c12d31cd49fb6d712d43f0337338491ba9ee--7ce6ca9d3db8039c4d39c6da8c804313505329093d2e502e764c2c6ce9c34836.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -355,11 +355,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%B1%82%E5%8F%A0%E7%94%BB%E6%A1%86/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/4d75a3703c7b0f623459d3bfbc7f0171b486b5b9e6ac3f9258805a6948e7506d--356d286ebe55210fab5eb0471271c34f945c69c14826d6da52b32d4039bfb647.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -381,11 +381,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%B1%95%E7%AD%BE%E7%95%99%E7%99%BD/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/52f7e4d43ada920630a2d5a451ae9ec921f5836acd51f84a0b6bc56cb6f41b8c--9e5e9a288887c051996b305cf0f17fe53d72836268c58f9b6996977693f20f5e.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -407,11 +407,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E5%BC%A7%E7%BA%BF%E9%95%BF%E5%BB%8A/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c72e6177a77b08a2b55b6594099cac70b9d7f438e4d697838bbcd9d93bd87106--4ffd40a405846bac02641a3e1975b050a65efbff5366e1984c513cba9988607e.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -458,11 +458,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%8B%B1%E9%97%A8%E5%B9%BF%E5%9C%BA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/084d140bb43c74e1c45fbe6312af27460af5c401797c5adf4b66c73998c8da24--c7ec5b6c09af89ccd83204e812f8e73a373338eabfcff963920d1ff71f0af62d.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -484,11 +484,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%8B%BC%E8%B4%B4%E4%BE%BF%E7%AC%BA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/597d40fc48337c46caa4bcb536ddf122a3430ac1749f2b62db5cf52d5cc8d5ae--9f4c4c4c539f04dd5f8b1fc61b67e8a890a3a2aac63b62a6a2642efb8fbd800c.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -510,11 +510,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%91%84%E5%BD%B1%E6%9A%97%E6%88%BF/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7fefdd33444f0005a2e33ed8fd0051d2564aa9bb0934935c63a45542b6e40--5809fad15cfec8199d2b315b23f0c30d503942f552a136705faec1c03a8f7942.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -561,11 +561,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%98%9F%E5%85%89%E5%BE%BD%E7%AB%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/72c77914312b4b9f051c263fbd1ac6464de2cd4422dcdf8973ce552de2e087bb--ccb3e2b95f7413b89d4f5d57e7198be9eb6a0c7d78257f28a76c91de036d2163.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -587,11 +587,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%98%9F%E9%99%85%E8%88%B7%E7%AA%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c2518fb61863c0cc00f2525f6840bed9cd3b66d355d800e4590d250e6aaf9c59--d896480307eb104b7fca534cc3850bd251f706f6188a12cc760beba4a166b8f7.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -613,11 +613,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%9E%81%E5%85%89%E9%9A%A7%E9%81%93/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/dde3eed25a41b2be211c399a22b557bb8490c458a7629da8ce74bfc2af1cc272--98d90c281a27da91fdbf4ff4fe685caed2efa2433607f67acd6e83d04d833983.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -689,11 +689,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%A1%A3%E6%A1%88%E6%8A%BD%E5%B1%89/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b350a80490de81ba4bbc77b47042d0be86bc516efb4a2c3aadbcf2bc7dfb2ffb--ca484813d11f3b105bf3386af2c05c997bca02437b7f78e58fa058e86104de67.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -715,11 +715,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%A8%A1%E5%9D%97%E4%BB%AA%E8%A1%A8/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e326156ea99fca25df742115516311611b8410c538b34eebe3fbbe6fb50af89b--45334aa4ec30a7c9212a367bc532200401cf5210f9876a6e473b141d1e81226e.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -766,11 +766,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E6%B6%9F%E6%BC%AA%E7%95%99%E7%99%BD/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/203333ef1aea0e81a08003c6c98446ae10491ed69b5deb4e512b51e55719950b--6a3d6330d2f887e0cd04321437517e5bbf1935daf34b6999636530ed7b446e1b.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -792,11 +792,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E7%94%B5%E5%BD%B1%E6%97%A5%E5%8E%86/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/78facf4d8b75233581602f38bc111f081f52f22d47e364d734ddd4a7b0081173--765c948d32f531f756a20f01071990a8611eb23fbb42f8299a08aadc0fa52acc.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -893,11 +893,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E7%AB%96%E5%B9%85%E7%94%BB%E5%8D%B7/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/4c97ead02d45e510f6f4a755b2a3cde4e50abf393a079356af55f84029764550--182053b11c6d437d5b759d37c619791c65e8951304d4f44806083d9042fbdb55.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -919,11 +919,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E7%BC%96%E5%8F%B7%E6%B5%B7%E6%8A%A5/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b4d20159fd102f843a87779c435b4e1ffd302f34c8b3ee351ecc1608522d1ddd--a60880fcbd5d322c75fed255e77a60cad4b9efeb3ef1a25d95f6e0d9f0c6bc3b.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -945,11 +945,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E7%BD%91%E6%A0%BC%E8%84%89%E5%86%B2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/280b74af7c07fd31a140a141e91ea671656adb916dde88f60c4dabef1ad24d88--f76bc8836056d82d6dc570c2e2fbb9714fdd84e87c5f36a4ea882ce60a9e4ed3.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -971,11 +971,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E8%83%B6%E5%9B%8A%E8%A7%86%E7%AA%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7d7f7921b259332880bbd512c448199365b27295d0561fc88a92239da18f3f72--ba78b69fab9e6db5263ed8e5354fb897d97e112bfefcd43f4dcdad2296c9c103.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -1097,11 +1097,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E9%82%AE%E7%A5%A8%E6%97%85%E8%A1%8C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/1766943fa1c895bae9ec7b9cb9ae94bf1aeb7332abb1f8c7e3673877098b7b33--cb859213f9482bf00eb3b23b1f5744c21e27e44687a4d0a0994b0fb85d14de97.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -1148,11 +1148,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E9%93%B6%E8%89%B2%E6%B5%AE%E5%B2%9B/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d358995f24505dc7d918d5a2f0680704ebb2a3b3cfc92d33c6547239d13081f9--3d8808fe5fb7327266bac59c5d282669f77a179e71e980a62b7125488cc61da7.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -1174,11 +1174,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E9%95%9C%E5%A4%B4%E5%85%89%E5%9C%88/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d6f3635e942f81b1bf3132ae3f1482a1252d45ccec3b0048a0c27f3b2ee42001--a4aebec674562e673eab5e6969820116ceba86ad4d39b11e8cb5eb71fe43d19c.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -1225,11 +1225,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/198f520487a92cfe550f2f8195b7199d4bef214e/%E9%BB%91%E7%99%BD%E6%A3%8B%E7%9B%98/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2fd750a28c195689629372e866157a6caad4be58818ccdfde4a6c99513b25e89--35a4751cb29af25b90f3788276f0d77b0e1203c0aebd826bbf71bd2e387c41b5.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
