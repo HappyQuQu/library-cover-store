@@ -1,98 +1,273 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-13T07:38:17.865291Z",
+  "generatedAt": "2026-10-13T08:20:42.597745Z",
   "pendingCount": 0,
   "templates": [
     {
+      "id": "e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e",
+      "revision": "7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd",
+      "name": "倾斜圆角海报墙",
+      "description": "左侧大标题，右侧九张圆角海报倾斜排列。使用首张海报的模糊压暗背景，保留海报间距、阴影和斜向边界，海报与标题自动替换。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "倾斜圆角海报墙",
+      "packageSha256": "3b4420929e2bdc017e2d84dd604b7c0518e6b335292472100843ce3c65406c53",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e--7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd.zip",
+      "downloadCount": 0
+    },
+    {
       "id": "35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490",
-      "revision": "6a1b029c9f316720a71ace96ab785f156ba8f0172a778528c6e4ad75122d8eb6",
+      "revision": "f591019b8e3eea3fd852c895fd59798f17d0cfbdfda8799469f14b5444ac3f0f",
       "name": "试作 · 四幕蒙太奇",
       "description": "四幅横向裁切画面铺满四角，中央横贯标题带，适合强调多部影片的分类封面。",
       "width": 1920,
       "height": 1080,
       "folder": "四幕蒙太奇",
-      "packageSha256": "6142c4871af25c7152aba8dba04b33b1a1a38e9e1c161967df6df675b10145b9",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490--6a1b029c9f316720a71ace96ab785f156ba8f0172a778528c6e4ad75122d8eb6.zip",
+      "packageSha256": "6a4c7060edd91c7f5614413471e51b8259a39d6acf42ca64a5cf62d2a0aa4627",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490--f591019b8e3eea3fd852c895fd59798f17d0cfbdfda8799469f14b5444ac3f0f.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb",
+      "revision": "e52a751680c81581b75e9d37698deeb3cd94d86e75060fa25665ac4ee229d288",
+      "name": "圆角叠卡",
+      "description": "左侧主副标题，右侧圆角主海报和两张半透明叠卡。三层共用同一张可替换图片，柔雾背景按样式随机配色。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "圆角叠卡",
+      "packageSha256": "a154f95ddfe5de970bd838552299c101f9ed16b08470cf65fd356eaa5b81b274",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb--e52a751680c81581b75e9d37698deeb3cd94d86e75060fa25665ac4ee229d288.zip",
       "downloadCount": 0
     },
     {
       "id": "f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47",
-      "revision": "57629c8505f2cb772ac9fe1e53b94ac52e68fd46ca50026c57c6dc78f2fc2aa6",
+      "revision": "1293577e6043159350b31624094672aee15cc82a93a54314dae0e0ff04e4cf5c",
       "name": "试作 · 影像画册",
       "description": "上方刊物式大标题、左下横向主视觉、右侧双图与图注的杂志编排。",
       "width": 1920,
       "height": 1080,
       "folder": "影像画册",
-      "packageSha256": "d21b54e264fa2c55ed3ed910fbe0eb0d7f4c0557890e50637327ba5bd2f5e262",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--57629c8505f2cb772ac9fe1e53b94ac52e68fd46ca50026c57c6dc78f2fc2aa6.zip",
+      "packageSha256": "3dd3718650c02b8d53af40ca9c337bf2057d8984a6120f6c32ef8a82d073032e",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--1293577e6043159350b31624094672aee15cc82a93a54314dae0e0ff04e4cf5c.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c",
+      "revision": "89fe110adf5164dc41de0320a5b27ce8caa4582ab3b12d98a0299fa84d2e0d0b",
+      "name": "斜切大图",
+      "description": "左侧主副标题，右侧一张斜切大图铺到边缘，适合精选影片与分类封面。标题与图片自动替换，柔雾背景按样式随机配色。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "斜切大图",
+      "packageSha256": "1fe335387808e11937f1ec9c8c3e987127983b45b1807e4a15c4026250818fde",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c--89fe110adf5164dc41de0320a5b27ce8caa4582ab3b12d98a0299fa84d2e0d0b.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c",
+      "revision": "360eefc421f4fec836088a7559ebe237764415fc7cc6c8fd6357d83c1938c7a2",
+      "name": "柔彩扇形",
+      "description": "居中双标题、五张圆角海报扇形排列。每次生成按柔彩渐变风格随机配色，海报与标题自动替换。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "柔彩扇形",
+      "packageSha256": "351596a5fc780430f75a5d43750b08b9d2e0170e60301f6348d29f9acd7135b2",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c--360eefc421f4fec836088a7559ebe237764415fc7cc6c8fd6357d83c1938c7a2.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d",
+      "revision": "bde708bf95e0d9adf363093d991b0d434a88174a50f778f2f8972b194c93df47",
+      "name": "柔雾居中标题",
+      "description": "柔雾渐变背景、居中大标题与衬线斜体副标题，副标题自动换行。无需图片，适合简洁分类封面，背景按样式随机配色。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "柔雾居中标题",
+      "packageSha256": "8277830644af942a4e3bce6afe3b35f3036854fa8ae0f3f7ffe20334cd24a160",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d--bde708bf95e0d9adf363093d991b0d434a88174a50f778f2f8972b194c93df47.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd",
+      "revision": "72e67da4391a8e136b563377e7f9cc6facb28d8e8b1aded9eb541664d815ec41",
+      "name": "横幅背景海报列",
+      "description": "首个影片的横向背景图铺满画面，左上主副标题，底部五张直立圆角海报。背景缺失时回退首张海报，可调整模糊和压暗。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横幅背景海报列",
+      "packageSha256": "430a39dc9c726ec74273204654f99a7b9ce84a4412b6ef262567563c857c049a",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd--72e67da4391a8e136b563377e7f9cc6facb28d8e8b1aded9eb541664d815ec41.zip",
+      "downloadCount": 0
+    },
+    {
+      "id": "7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339",
+      "revision": "5ce48a8aa7662b19d561e2d388a8ffd8a2e67165b0751e33b8a57b59a5bf0ceb",
+      "name": "直列海报墙",
+      "description": "左侧大标题、右侧 2/3 画幅铺满竖直无缝海报墙，无间距、无圆角留白。每次生成随机同色系底色与点缀色，海报与标题自动替换。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "直列海报墙",
+      "packageSha256": "8c70c1addbe2cffe11e9563c0a6f5cf38f027cf2ee4258a4818750a43363da65",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339--5ce48a8aa7662b19d561e2d388a8ffd8a2e67165b0751e33b8a57b59a5bf0ceb.zip",
       "downloadCount": 0
     },
     {
       "id": "502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153",
-      "revision": "d9389b6377596e0eb168c6da7645fb56aeb6003c8be2e6fb4df20ff5e6bacfa2",
+      "revision": "073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7",
       "name": "试作 · 票根收藏",
       "description": "大幅票根纸面、左侧单张海报、右侧主副标题，带齿孔与编号装饰。",
       "width": 1920,
       "height": 1080,
       "folder": "票根收藏",
-      "packageSha256": "091fa2ad836cd5c7ba77a15be6f7a6f54d0901506825a6186d48efd260cd9a10",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--d9389b6377596e0eb168c6da7645fb56aeb6003c8be2e6fb4df20ff5e6bacfa2.zip",
+      "packageSha256": "061c4803bf3c2d083348628e651ab995905378dd8684b3a80fb196d6a8113407",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7.zip",
       "downloadCount": 0
     },
     {
       "id": "cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261",
-      "revision": "4887fb931d0a3f9919cd9a6e658c7c20de32637779a5c18d95c4e849e855c704",
+      "revision": "af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef",
       "name": "试作 · 胶片放映",
       "description": "横贯画面的四格胶片与上下齿孔，底部大标题；四张图片按横向画幅裁切。",
       "width": 1920,
       "height": 1080,
       "folder": "胶片放映",
-      "packageSha256": "f0006d7be3ccd5c2f34eb191748e5087f3217e57d05c5294b7397d6482c087e3",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--4887fb931d0a3f9919cd9a6e658c7c20de32637779a5c18d95c4e849e855c704.zip",
+      "packageSha256": "1ec90e9052f521f559202daacafc9dde39bfec8d903d832c4ffdfb6f2eb17429",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef.zip",
       "downloadCount": 0
     },
     {
       "id": "0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d",
-      "revision": "192a74da5622177972e629fc62bbdd968f429f4849ed042bd432fa82c4513318",
+      "revision": "e408d8398516c98892a5753f954653d1de5c323378a81007f42c96f541813957",
       "name": "试作 · 蜂巢拼图",
       "description": "七张六边形海报组成蜂巢，底部主副标题与浅色画册背景。",
       "width": 1920,
       "height": 1080,
       "folder": "蜂巢拼图",
-      "packageSha256": "1c52dc81619d47fea9a25e717eef3b8a60bc83c9eb943a5acb2d6c63aa9ddbbf",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d--192a74da5622177972e629fc62bbdd968f429f4849ed042bd432fa82c4513318.zip",
+      "packageSha256": "c2b1cd7081f13a400457ab5b095ccc531b6ff2190a77a0de6bc1c04e507bae01",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d--e408d8398516c98892a5753f954653d1de5c323378a81007f42c96f541813957.zip",
       "downloadCount": 0
     },
     {
       "id": "e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54",
-      "revision": "698b177293378594752745de1e80922f7c8e2ad3a002d41e8cec4965f08f7186",
+      "revision": "0cf7d62e5e0bc1598793da0693c706d495092cf56fbdeee74705e8440e2bbcab",
       "name": "试作 · 轨道星图",
       "description": "五枚圆形海报沿椭圆轨道分布，标题位于中央留白，带细线与星图节点。",
       "width": 1920,
       "height": 1080,
       "folder": "轨道星图",
-      "packageSha256": "76ea529d07081a0894ecf9c956dc86db274a5176c30defd42108d7ce3e015b09",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54--698b177293378594752745de1e80922f7c8e2ad3a002d41e8cec4965f08f7186.zip",
+      "packageSha256": "67e1242d8df0101dc9d1e6d3471265800857a6cb570e7a3ff57b22bd19f87d3d",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54--0cf7d62e5e0bc1598793da0693c706d495092cf56fbdeee74705e8440e2bbcab.zip",
       "downloadCount": 0
     },
     {
       "id": "56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64",
-      "revision": "103c61860a90c9969a697c1901be2bcc411de1bc199f625dcefec2a4848fd33e",
+      "revision": "ba09d0a69e01197918095183ed04aeada372757418681fe994a800795030d292",
       "name": "试作 · 黑胶唱片",
       "description": "左侧唱片刻纹与圆形海报唱片标签，右侧标题和两枚独立圆形封面。",
       "width": 1920,
       "height": 1080,
       "folder": "黑胶唱片",
-      "packageSha256": "7f645588e0238ea647f374f4c93ec27a6919a7d8edf532105216157f9201c9fd",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/37b3e7f5e5b44e5f4db8e550f7a13506d0b1ac42/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
-      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--103c61860a90c9969a697c1901be2bcc411de1bc199f625dcefec2a4848fd33e.zip",
+      "packageSha256": "56759c1b19afcf9b69916d38d1f4448cb887bf36a6574aa72db01e75a919c074",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布；提供版本、作者与模板说明。",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/5f7bff9a6681e31dd3af2aad05eb314744fb77ad/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--ba09d0a69e01197918095183ed04aeada372757418681fe994a800795030d292.zip",
       "downloadCount": 0
     }
   ]
