@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-13T08:48:14.423479Z",
+  "generatedAt": "2026-10-13T08:54:47.655412Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -19,9 +19,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e--7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490",
@@ -38,9 +44,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490--f591019b8e3eea3fd852c895fd59798f17d0cfbdfda8799469f14b5444ac3f0f.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb",
@@ -57,9 +69,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb--e52a751680c81581b75e9d37698deeb3cd94d86e75060fa25665ac4ee229d288.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47",
@@ -76,9 +94,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--1293577e6043159350b31624094672aee15cc82a93a54314dae0e0ff04e4cf5c.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c",
@@ -95,9 +119,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c--89fe110adf5164dc41de0320a5b27ce8caa4582ab3b12d98a0299fa84d2e0d0b.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c",
@@ -114,9 +144,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c--360eefc421f4fec836088a7559ebe237764415fc7cc6c8fd6357d83c1938c7a2.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d",
@@ -133,9 +169,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d--bde708bf95e0d9adf363093d991b0d434a88174a50f778f2f8972b194c93df47.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd",
@@ -152,9 +194,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd--72e67da4391a8e136b563377e7f9cc6facb28d8e8b1aded9eb541664d815ec41.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339",
@@ -171,9 +219,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339--5ce48a8aa7662b19d561e2d388a8ffd8a2e67165b0751e33b8a57b59a5bf0ceb.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153",
@@ -190,9 +244,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261",
@@ -209,9 +269,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d",
@@ -228,9 +294,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d--e408d8398516c98892a5753f954653d1de5c323378a81007f42c96f541813957.zip",
-      "downloadCount": 1
+      "downloadCount": 2,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 2
+        }
+      ]
     },
     {
       "id": "e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54",
@@ -247,9 +319,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54--0cf7d62e5e0bc1598793da0693c706d495092cf56fbdeee74705e8440e2bbcab.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     },
     {
       "id": "56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64",
@@ -266,9 +344,15 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6c6b5dba886eeb42a89d8c29aaaa68989722ba39/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/03391084becac5ab4c02db13ea472fe9980402f6/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--ba09d0a69e01197918095183ed04aeada372757418681fe994a800795030d292.zip",
-      "downloadCount": 0
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
     }
   ]
 }
