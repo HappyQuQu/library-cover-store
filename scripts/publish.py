@@ -16,7 +16,9 @@ from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 import zipfile
 
-MAX_BYTES = 5 * 1024 * 1024
+MAX_BYTES = 64 * 1024 * 1024
+MAX_CONTENT_BYTES = 5 * 1024 * 1024
+MAX_FONT_BYTES = 50 * 1024 * 1024
 BATCH_SIZE = 200
 MAX_UPLOADS_PER_RUN = 100
 RESERVED = {'scripts', 'tests', 'doc', 'docs', 'examples', 'node_modules'}
@@ -26,6 +28,54 @@ RELEASE_PATTERN = re.compile(r'^store-(\d{5,})$')
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
+
+
+def package_fonts(directory, data, canvas):
+    fonts = data.get('fonts')
+    if fonts is None:
+        fonts = []
+    if not isinstance(fonts, list) or len(fonts) > 16:
+        raise ValueError(f'{directory.name}: fonts 必须是最多 16 项的字体清单')
+    used = set()
+    def visit(value):
+        if isinstance(value, list):
+            for child in value:
+                visit(child)
+        elif isinstance(value, dict):
+            for key, child in value.items():
+                if key == 'fontFamily' and isinstance(child, str):
+                    used.update(part.strip().strip('\'"').lower() for part in [child, *child.split(',')])
+                else:
+                    visit(child)
+    visit(canvas)
+    names, paths = set(), {}
+    for font in fonts:
+        if not isinstance(font, dict):
+            raise ValueError(f'{directory.name}: 字体清单条目必须是对象')
+        family, filename, checksum = font.get('family'), font.get('file'), font.get('sha256')
+        if (not isinstance(family, str) or not 1 <= len(family.strip()) <= 100
+                or re.search(r'[\\/:*?"<>|\x00-\x1f]', family)
+                or family.strip().lower() in names or family.strip().lower() not in used):
+            raise ValueError(f'{directory.name}: 字体名称无效、重复或未被模板使用')
+        names.add(family.strip().lower())
+        if not isinstance(filename, str) or not re.fullmatch(r'fonts/[a-zA-Z0-9_-]+\.(ttf|otf|woff|woff2)', filename):
+            raise ValueError(f'{directory.name}: 字体文件路径无效')
+        if not isinstance(checksum, str) or not re.fullmatch(r'[a-f0-9]{64}', checksum):
+            raise ValueError(f'{directory.name}: 字体 sha256 无效')
+        file = directory / filename
+        if (directory / 'fonts').is_symlink() or file.is_symlink() or not file.is_file() or file.stat().st_size > MAX_FONT_BYTES:
+            raise ValueError(f'{directory.name}: 字体文件缺失、为软链接或超过 50 MB')
+        content = file.read_bytes()
+        signatures = {'.ttf': (b'\x00\x01\x00\x00', b'true'), '.otf': (b'OTTO',), '.woff': (b'wOFF',), '.woff2': (b'wOF2',)}
+        if len(content) < 12 or content[:4] not in signatures[file.suffix] or digest(content) != checksum:
+            raise ValueError(f'{directory.name}: 字体格式或 sha256 校验失败')
+        paths[filename] = file
+    folder = directory / 'fonts'
+    if folder.is_symlink():
+        raise ValueError(f'{directory.name}: fonts 不能是软链接')
+    if folder.exists() and (not folder.is_dir() or any(p.is_dir() or p.is_symlink() or f'fonts/{p.name}' not in paths for p in folder.iterdir())):
+        raise ValueError(f'{directory.name}: fonts 中包含未声明的文件')
+    return sorted(paths.items())
 
 
 def metadata(data):
@@ -69,7 +119,7 @@ def scan_templates(root):
         preview_file = previews[0]
         if template_file.is_symlink() or preview_file.is_symlink():
             raise ValueError(f'{directory.name}: 模板文件不能是软链接')
-        if template_file.stat().st_size + preview_file.stat().st_size > MAX_BYTES:
+        if template_file.stat().st_size + preview_file.stat().st_size > MAX_CONTENT_BYTES:
             raise ValueError(f'{directory.name}: JSON 和预览图合计不能超过 5 MB')
         raw_json, preview = template_file.read_bytes(), preview_file.read_bytes()
         data = json.loads(raw_json)
@@ -99,10 +149,16 @@ def scan_templates(root):
         if not valid_image:
             raise ValueError(f'{directory.name}: 预览图必须是 JPEG、PNG 或 WebP 图片')
         template_id = digest(directory.name.encode('utf-8'))
-        revision = digest(raw_json + b'\0' + preview)
+        fonts = package_fonts(directory, data, canvas)
+        if len(raw_json) + len(preview) + sum(file.stat().st_size for _, file in fonts) > MAX_BYTES:
+            raise ValueError(f'{directory.name}: 模板与字体合计超过 64 MB')
+        revision_hash = hashlib.sha256(raw_json + b'\0' + preview)
+        for filename, file in fonts:
+            revision_hash.update(b'\0' + filename.encode('utf-8') + b'\0' + file.read_bytes())
+        revision = revision_hash.hexdigest()
         result.append({**metadata(data), 'id': template_id, 'revision': revision, 'name': name, 'description': description,
                        'width': data['width'], 'height': data['height'], 'folder': directory.name,
-                       'previewFile': preview_file.name, 'templatePath': template_file, 'previewPath': preview_file,
+                       'previewFile': preview_file.name, 'templatePath': template_file, 'previewPath': preview_file, 'fontPaths': fonts,
                        'assetName': f'{template_id}--{revision}.zip'})
     return result
 
@@ -111,13 +167,13 @@ def make_package(item):
     # Build only missing/changed packages. Keep memory bounded to one template.
     stream = io.BytesIO()
     with zipfile.ZipFile(stream, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
-        for filename, file in [('template.json', item['templatePath']), (item['previewFile'], item['previewPath'])]:
+        for filename, file in [('template.json', item['templatePath']), (item['previewFile'], item['previewPath']), *item.get('fontPaths', [])]:
             info = zipfile.ZipInfo(filename, date_time=(1980, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             archive.writestr(info, file.read_bytes())
     package = stream.getvalue()
     if len(package) > MAX_BYTES:
-        raise ValueError(f"{item['folder']}: ZIP 超过 5 MB")
+        raise ValueError(f"{item['folder']}: ZIP 超过 64 MB")
     return package
 
 

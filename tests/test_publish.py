@@ -179,6 +179,60 @@ class PublishingTests(unittest.TestCase):
             with self.subTest(data=data), self.assertRaises(ValueError):
                 publisher.metadata(data)
 
+    def add_font(self, directory, content=b'\x00\x01\x00\x00' + b'font-data' * 4):
+        folder = directory / 'fonts'
+        folder.mkdir(exist_ok=True)
+        filename = f'fonts/{publisher.digest(content)}.ttf'
+        (directory / filename).write_bytes(content)
+        data = json.loads((directory / 'template.json').read_text())
+        data['canvasJson'] = json.dumps({'objects': [{'type': 'group', 'objects': [{'type': 'text', 'fontFamily': 'Portable Font'}]}]})
+        data['fonts'] = [{'family': 'Portable Font', 'file': filename, 'sha256': publisher.digest(content)}]
+        (directory / 'template.json').write_text(json.dumps(data))
+        return data, filename
+
+    def test_font_files_are_packaged_reproducibly_and_change_store_revisions(self):
+        directory = self.template()
+        data, filename = self.add_font(directory)
+        item = publisher.scan_templates(self.root)[0]
+        package = publisher.make_package(item)
+        self.assertEqual(package, publisher.make_package(item))
+        with zipfile.ZipFile(io.BytesIO(package)) as archive:
+            self.assertIn(filename, archive.namelist())
+            self.assertEqual(publisher.digest(archive.read(filename)), data['fonts'][0]['sha256'])
+            self.assertEqual(json.loads(archive.read('template.json'))['fonts'], data['fonts'])
+        self.add_font(directory, b'\x00\x01\x00\x00' + b'new-version' * 4)
+        (directory / filename).unlink()
+        self.assertNotEqual(publisher.scan_templates(self.root)[0]['revision'], item['revision'])
+
+    def test_fonts_can_exceed_old_package_limit_while_template_content_stays_small(self):
+        directory = self.template()
+        self.add_font(directory, b'\x00\x01\x00\x00' + b'x' * (6 * 1024 * 1024))
+        item = publisher.scan_templates(self.root)[0]
+        with zipfile.ZipFile(io.BytesIO(publisher.make_package(item))) as archive:
+            self.assertGreater(archive.getinfo(item['fontPaths'][0][0]).file_size, 5 * 1024 * 1024)
+        with patch.object(publisher, 'MAX_BYTES', 1024), self.assertRaises(ValueError):
+            publisher.scan_templates(self.root)
+
+    def test_invalid_font_dependencies_are_rejected(self):
+        directory = self.template()
+        data, filename = self.add_font(directory)
+        for change in ({'file': '../outside.ttf'}, {'sha256': '0' * 64}, {'family': 'Not Used'}, {'family': '../Bad'}, {'file': 'fonts/missing.ttf'}):
+            invalid = {**data, 'fonts': [{**data['fonts'][0], **change}]}
+            (directory / 'template.json').write_text(json.dumps(invalid))
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                publisher.scan_templates(self.root)
+        (directory / 'template.json').write_text(json.dumps(data))
+        (directory / 'fonts' / 'unlisted.ttf').write_bytes(b'\x00\x01\x00\x00font-data')
+        with self.assertRaises(ValueError):
+            publisher.scan_templates(self.root)
+        (directory / 'fonts' / 'unlisted.ttf').unlink()
+        (directory / filename).unlink()
+        outside = self.root / '.outside.ttf'
+        outside.write_bytes(b'\x00\x01\x00\x00font-data')
+        (directory / filename).symlink_to(outside)
+        with self.assertRaises(ValueError):
+            publisher.scan_templates(self.root)
+
 
 if __name__ == '__main__':
     unittest.main()
