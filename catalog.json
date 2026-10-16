@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-16T09:55:06.482124Z",
+  "generatedAt": "2026-10-16T14:55:02.054062Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -124,11 +124,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf--0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116.zip",
-      "downloadCount": 7,
+      "downloadCount": 8,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 7
+          "downloadCount": 8
         }
       ]
     },
