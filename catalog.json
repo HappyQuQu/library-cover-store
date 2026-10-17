@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-17T00:33:23.336582Z",
+  "generatedAt": "2026-10-17T05:39:18.392203Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -99,11 +99,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e--7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd.zip",
-      "downloadCount": 5,
+      "downloadCount": 6,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 5
+          "downloadCount": 6
         }
       ]
     },
@@ -124,11 +124,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf--0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116.zip",
-      "downloadCount": 8,
+      "downloadCount": 9,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 8
+          "downloadCount": 9
         }
       ]
     },
@@ -251,11 +251,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E5%9C%B0%E5%B9%B3%E9%93%B6%E5%B9%95/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/156a604666a6a557af330cd9264e95bd5efde97ff9b2d702eefb49a904a14ce5--1e5d48dd068b5f944a228cb844a844b5a7b03c85c8b39fc08d5ba2d72747539a.zip",
-      "downloadCount": 3,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 3
+          "downloadCount": 4
         }
       ]
     },
@@ -303,11 +303,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E5%A4%9C%E5%88%8A%E5%B0%81%E9%9D%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/a2a91159b9f6fe99265e86cb747f1957b579d2aa6fa331aa2c15959ee1ed7a10--aa01e01986a0cf60ac0a9574280b0d0ff85547ebca75ff9bb022def9d190a4d0.zip",
-      "downloadCount": 3,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 3
+          "downloadCount": 4
         }
       ]
     },
@@ -1122,11 +1122,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E9%93%B6%E5%B9%95%E6%8A%98%E9%A1%B5/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d27269b8880726ae30d26b10e26836c4bd6b91ab321a5c73f3470898fe486288--184d31c2aadfb1b33c8d4b21f432546503a576e4c1fd8b3cdf94a47591ed81fb.zip",
-      "downloadCount": 3,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 3
+          "downloadCount": 4
         }
       ]
     },
