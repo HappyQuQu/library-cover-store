@@ -211,6 +211,25 @@ class PublishingTests(unittest.TestCase):
         self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'mixed', 'artworkCount': 3})
         self.assertEqual(publisher.artwork_summary({'posterBackground': {'source': 'backdrop'}}), {'artworkType': 'backdrop', 'artworkCount': 1})
 
+    def test_per_slot_sources_share_one_media_slot_and_ignore_unbound_overrides(self):
+        canvas = {'posterSource': 'backdrop', 'objects': [
+            {'posterVar': 'post1'}, {'posterVar': 'post1', 'artworkSource': 'poster'},
+            {'src': 'decoration.jpg', 'artworkSource': 'poster'},
+            {'posterVar': 'post9', 'artworkSource': 'poster', 'visible': False}
+        ]}
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'mixed', 'artworkCount': 1})
+        canvas['objects'][1]['artworkSource'] = 'invalid'
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'backdrop', 'artworkCount': 1})
+        canvas['objects'][0]['artworkSource'] = 'poster'
+        canvas['objects'][1]['artworkSource'] = 'poster'
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'poster', 'artworkCount': 1})
+
+    def test_backdrop_sample_urls_and_background_use_independent_sources(self):
+        canvas = {'posterSource': 'backdrop', 'objects': [{'src': '/api/templates/posters/backdrops/2.jpg'}]}
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'backdrop', 'artworkCount': 2})
+        canvas['posterBackground'] = {'source': 'poster'}
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'mixed', 'artworkCount': 2})
+
     def test_legacy_metadata_defaults_and_invalid_fields(self):
         self.assertEqual(publisher.metadata({}), {'version': '1.0.0', 'changelog': ''})
         for data in ({'version': '1.0'}, {'version': '01.0.0'}, {'author': 'someone'},
