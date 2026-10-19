@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-19T04:53:40.951805Z",
+  "generatedAt": "2026-10-19T10:52:38.038944Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -74,11 +74,11 @@
       "minAppVersion": "1.5.0",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E4%BA%A4%E9%94%99%E4%B9%A6%E8%84%8A/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/72527240009c77025772f4029b5ebecb9069f58f0e5d72c70e005c4b9ba6a206--0032c50418a1d717623a07d221b56cdb3ada82022115d32dbcfc23ec97f86f3c.zip",
-      "downloadCount": 5,
+      "downloadCount": 6,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 5
+          "downloadCount": 6
         }
       ]
     },
@@ -124,11 +124,11 @@
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf--0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116.zip",
-      "downloadCount": 11,
+      "downloadCount": 12,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 11
+          "downloadCount": 12
         }
       ]
     },
@@ -996,11 +996,11 @@
       "changelog": "首次发布；提供版本、作者与模板说明。",
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/6a7de47d735392f4bdfa67828857e0a0511253db/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef.zip",
-      "downloadCount": 9,
+      "downloadCount": 10,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 9
+          "downloadCount": 10
         }
       ]
     },
