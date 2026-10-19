@@ -106,6 +106,8 @@ def metadata(data):
 def artwork_summary(canvas):
     """Summarize bound artwork, never decorative images or the preview's aspect ratio."""
     highest = 0
+    sources = set()
+    default_source = 'backdrop' if canvas.get('posterSource') == 'backdrop' else 'poster'
     def visit(objects):
         nonlocal highest
         for obj in objects:
@@ -114,19 +116,19 @@ def artwork_summary(canvas):
             variable, source = obj.get('posterVar', ''), obj.get('src', '')
             match = re.fullmatch(r'post([1-9])', variable) if isinstance(variable, str) else None
             if not match and isinstance(source, str):
-                match = re.search(r'\{\{poster([1-9])\}\}|/posters/([1-9])\.(?:jpg|jpeg|png)', source)
+                match = re.search(r'\{\{poster([1-9])\}\}|/posters/(?:backdrops/)?([1-9])\.(?:jpg|jpeg|png)', source)
             if match:
                 highest = max(highest, int(next(group for group in match.groups() if group)))
             elif obj.get('isPoster') or source == '{{poster}}':
                 highest = max(highest, 1)
+            if match or obj.get('isPoster') or source == '{{poster}}':
+                override = obj.get('artworkSource')
+                sources.add(override if override in ('poster', 'backdrop') else default_source)
             visit(obj.get('objects', []))
     visit(canvas.get('objects', []))
     background = canvas.get('posterBackground') or {}
-    sources = set()
-    if highest or background.get('source') == 'poster':
-        sources.add('backdrop' if canvas.get('posterSource') == 'backdrop' else 'poster')
-    if background.get('source') == 'backdrop':
-        sources.add('backdrop')
+    if background:
+        sources.add('backdrop' if background.get('source') == 'backdrop' else 'poster')
     kind = 'mixed' if len(sources) > 1 else next(iter(sources), 'none')
     return {'artworkType': kind, 'artworkCount': max(highest, 1 if background else 0)}
 
