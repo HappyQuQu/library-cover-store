@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-19T11:28:50.074402Z",
+  "generatedAt": "2026-10-19T12:15:42.401196Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -20,7 +20,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E4%B8%89%E8%A7%92%E6%8B%BC%E7%89%88/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E4%B8%89%E8%A7%92%E6%8B%BC%E7%89%88/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/356aa57e8048b0a2e402613fd38b47c65564c2b674cafa5df63b671d9a65e1d9--d9b34e256a09cf398e479a8f5058d016990a11cd145fcec2ea7f7becdf247c56.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -46,7 +46,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E4%BA%91%E7%AB%AF%E4%B9%A6%E7%AD%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E4%BA%91%E7%AB%AF%E4%B9%A6%E7%AD%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cd8068de202132a7554a988c57842fe7a80306a17559a4b8c4dbc48f2f8b6b24--e2703a703345fd4c497909bb0dddcc7035982ac7c3f945b285e3b67b4004726f.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -72,7 +72,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E4%BA%A4%E9%94%99%E4%B9%A6%E8%84%8A/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E4%BA%A4%E9%94%99%E4%B9%A6%E8%84%8A/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/72527240009c77025772f4029b5ebecb9069f58f0e5d72c70e005c4b9ba6a206--0032c50418a1d717623a07d221b56cdb3ada82022115d32dbcfc23ec97f86f3c.zip",
       "downloadCount": 6,
       "downloadSources": [
@@ -97,7 +97,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%80%BE%E6%96%9C%E5%9C%86%E8%A7%92%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e11174ea36da14310dac2972d34c03b6b8d43d243497d84f03daa84b83c69e7e--7ae55a32b855e8841ac97fd0834037fb09e7d697ace4c08a8a27db483d7c1ecd.zip",
       "downloadCount": 6,
       "downloadSources": [
@@ -122,7 +122,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%85%A8%E6%99%AF%E5%A4%9C%E8%88%AA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c1a20d16a2af6b269d69d2f08894b20869d400d36d0c79fc1e3f5542c74a6eaf--0f3d6357c156dd76b12e8d68d0a4c5c13765f87ac79ee7eeea5c4811e3c36116.zip",
       "downloadCount": 12,
       "downloadSources": [
@@ -147,7 +147,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%8D%88%E5%A4%9C%E9%98%B6%E6%A2%AF/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%8D%88%E5%A4%9C%E9%98%B6%E6%A2%AF/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/535a8310a4b65fca520119480eb7c5d9902490dae78cf8d07505a0c4bbbaea2d--e0a0ab25f46cad8e105afb17d49c60a120bb84107e50a99c75303948b7dac6e3.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -173,7 +173,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%8F%8C%E9%A1%B5%E5%AF%B9%E7%85%A7/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%8F%8C%E9%A1%B5%E5%AF%B9%E7%85%A7/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/ba8500c801675d001fb171777d9be37b5e70d2d6773a7a7d1a4ec15c4d8f321d--ab9fbbe3d189ca8b97e508b00928dd50e67e3fe5b77eb2e710cd809de8df3609.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -199,13 +199,13 @@
       },
       "changelog": "首次发布：2:3 竖版合集封面；合集名称、副标题和成员海报均为可替换图层。",
       "minAppVersion": "1.10.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%90%88%E9%9B%86%E5%85%AD%E5%B9%95%E7%B3%BB%E5%88%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%90%88%E9%9B%86%E5%85%AD%E5%B9%95%E7%B3%BB%E5%88%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2004b78dfcadfc57e227e461da1cba8883688507957a4a2c8b221e305262fbe9--ed67c2e0f175173191466b996c28ceb4ef2e407118c60c0bfceca0f868fab581.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -225,13 +225,13 @@
       },
       "changelog": "首次发布：2:3 竖版合集封面；合集名称、副标题和成员海报均为可替换图层。",
       "minAppVersion": "1.10.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%90%88%E9%9B%86%E6%96%9C%E5%B9%95%E6%8B%BC%E7%AB%A0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%90%88%E9%9B%86%E6%96%9C%E5%B9%95%E6%8B%BC%E7%AB%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf5ed6b6606d20ccf04beef9474fef53d3f50d3c8b73229d7fe6d6236f538d66--5759d903e25e83c246322d98805c177c7d19da61fbb844db9a18d1667e95e12e.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -251,13 +251,13 @@
       },
       "changelog": "首次发布：2:3 竖版合集封面；合集名称、副标题和成员海报均为可替换图层。",
       "minAppVersion": "1.10.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%90%88%E9%9B%86%E6%9E%81%E5%A4%9C%E5%8F%A0%E6%98%A0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%90%88%E9%9B%86%E6%9E%81%E5%A4%9C%E5%8F%A0%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c606adf20aa3843bdd55faee950a732c713f07eb554b658669598e33b9dd9962--a3b4807d53bae326ef193eb9d83d84c0910e2e8c5e4d298ec76054555532aeb6.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -277,13 +277,13 @@
       },
       "changelog": "首次发布：2:3 竖版合集封面；合集名称、副标题和成员海报均为可替换图层。",
       "minAppVersion": "1.10.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%90%88%E9%9B%86%E7%94%BB%E5%86%8C%E7%B4%A2%E5%BC%95/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%90%88%E9%9B%86%E7%94%BB%E5%86%8C%E7%B4%A2%E5%BC%95/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/5332d2c0deaa343ba94954cd3023847d0ad14c7caa1c2a333177b899ba79f101--eed54276a6ad8b0532af3f71a9f2e0d44781a058a4d1767de518d825d4766047.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 2
         }
       ]
     },
@@ -303,13 +303,13 @@
       },
       "changelog": "首次发布：2:3 竖版合集封面；合集名称、副标题和成员海报均为可替换图层。",
       "minAppVersion": "1.10.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%90%88%E9%9B%86%E8%83%B6%E7%89%87%E9%95%BF%E5%8D%B7/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%90%88%E9%9B%86%E8%83%B6%E7%89%87%E9%95%BF%E5%8D%B7/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/3ae4cac3029fae760ffec5666fc14110ce801b0d071d9617b6d1051d0862285c--b77de92141d1ae0106ddf53f9914145cae42356d9dd1780d395f6fd1cc447a0b.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -329,13 +329,13 @@
       },
       "changelog": "首次发布：2:3 竖版合集封面；合集名称、副标题和成员海报均为可替换图层。",
       "minAppVersion": "1.10.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%90%88%E9%9B%86%E9%BB%91%E9%87%91%E5%85%B8%E8%97%8F/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%90%88%E9%9B%86%E9%BB%91%E9%87%91%E5%85%B8%E8%97%8F/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c4ce00c8cda2850f65f8f0ec5118fa4284304ff05b599f30009a7970b226261d--9fca6311091642e85bae67ab999c6fbc4494e0e3f641a65e76a229162f1fe806.zip",
-      "downloadCount": 0,
+      "downloadCount": 1,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 0
+          "downloadCount": 1
         }
       ]
     },
@@ -354,7 +354,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%9B%9B%E5%B9%95%E8%92%99%E5%A4%AA%E5%A5%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/35ced88d078fb116a844365343777ed307d929d1d8a667b44ae5228cb5106490--f591019b8e3eea3fd852c895fd59798f17d0cfbdfda8799469f14b5444ac3f0f.zip",
       "downloadCount": 2,
       "downloadSources": [
@@ -379,7 +379,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%9C%86%E8%A7%92%E5%8F%A0%E5%8D%A1/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/306eefc7a3537cb3d05b4fcc3019b71212ffba316cfac5c094d5e7abe37e21eb--e52a751680c81581b75e9d37698deeb3cd94d86e75060fa25665ac4ee229d288.zip",
       "downloadCount": 2,
       "downloadSources": [
@@ -405,7 +405,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%9C%B0%E5%B9%B3%E9%93%B6%E5%B9%95/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%9C%B0%E5%B9%B3%E9%93%B6%E5%B9%95/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/156a604666a6a557af330cd9264e95bd5efde97ff9b2d702eefb49a904a14ce5--1e5d48dd068b5f944a228cb844a844b5a7b03c85c8b39fc08d5ba2d72747539a.zip",
       "downloadCount": 5,
       "downloadSources": [
@@ -431,7 +431,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%A4%8D%E5%8F%A4%E7%BB%88%E7%AB%AF/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%A4%8D%E5%8F%A4%E7%BB%88%E7%AB%AF/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cebb77d1ea3079044284023d7f20c24a7cfc843ba258d42c000d7e568787f9f0--6f63bf44829507ba8b07a8216d874bad2108a3628e001d6cc17ddb325e1e6a60.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -457,7 +457,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%A4%9C%E5%88%8A%E5%B0%81%E9%9D%A2/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%A4%9C%E5%88%8A%E5%B0%81%E9%9D%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/a2a91159b9f6fe99265e86cb747f1957b579d2aa6fa331aa2c15959ee1ed7a10--aa01e01986a0cf60ac0a9574280b0d0ff85547ebca75ff9bb022def9d190a4d0.zip",
       "downloadCount": 5,
       "downloadSources": [
@@ -483,7 +483,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%AE%9D%E7%9F%B3%E5%88%87%E9%9D%A2/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%AE%9D%E7%9F%B3%E5%88%87%E9%9D%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f42001b654879694374e461f0652c12d31cd49fb6d712d43f0337338491ba9ee--7ce6ca9d3db8039c4d39c6da8c804313505329093d2e502e764c2c6ce9c34836.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -509,7 +509,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%B1%82%E5%8F%A0%E7%94%BB%E6%A1%86/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%B1%82%E5%8F%A0%E7%94%BB%E6%A1%86/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/4d75a3703c7b0f623459d3bfbc7f0171b486b5b9e6ac3f9258805a6948e7506d--356d286ebe55210fab5eb0471271c34f945c69c14826d6da52b32d4039bfb647.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -535,7 +535,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%B1%95%E7%AD%BE%E7%95%99%E7%99%BD/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%B1%95%E7%AD%BE%E7%95%99%E7%99%BD/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/52f7e4d43ada920630a2d5a451ae9ec921f5836acd51f84a0b6bc56cb6f41b8c--9e5e9a288887c051996b305cf0f17fe53d72836268c58f9b6996977693f20f5e.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -561,7 +561,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%BC%A7%E7%BA%BF%E9%95%BF%E5%BB%8A/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%BC%A7%E7%BA%BF%E9%95%BF%E5%BB%8A/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c72e6177a77b08a2b55b6594099cac70b9d7f438e4d697838bbcd9d93bd87106--4ffd40a405846bac02641a3e1975b050a65efbff5366e1984c513cba9988607e.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -586,7 +586,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E5%BD%B1%E5%83%8F%E7%94%BB%E5%86%8C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f2be525970b1b86b4bcfa0450c205ee653370ebaa679d383921f82fab64e4e47--1293577e6043159350b31624094672aee15cc82a93a54314dae0e0ff04e4cf5c.zip",
       "downloadCount": 9,
       "downloadSources": [
@@ -612,7 +612,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%8B%B1%E9%97%A8%E5%B9%BF%E5%9C%BA/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%8B%B1%E9%97%A8%E5%B9%BF%E5%9C%BA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/084d140bb43c74e1c45fbe6312af27460af5c401797c5adf4b66c73998c8da24--c7ec5b6c09af89ccd83204e812f8e73a373338eabfcff963920d1ff71f0af62d.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -638,7 +638,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%8B%BC%E8%B4%B4%E4%BE%BF%E7%AC%BA/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%8B%BC%E8%B4%B4%E4%BE%BF%E7%AC%BA/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/597d40fc48337c46caa4bcb536ddf122a3430ac1749f2b62db5cf52d5cc8d5ae--9f4c4c4c539f04dd5f8b1fc61b67e8a890a3a2aac63b62a6a2642efb8fbd800c.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -664,7 +664,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%91%84%E5%BD%B1%E6%9A%97%E6%88%BF/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%91%84%E5%BD%B1%E6%9A%97%E6%88%BF/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7fefdd33444f0005a2e33ed8fd0051d2564aa9bb0934935c63a45542b6e40--5809fad15cfec8199d2b315b23f0c30d503942f552a136705faec1c03a8f7942.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -689,7 +689,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%96%9C%E5%88%87%E5%A4%A7%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/6671230828e039462a714e48a09e814198f3c10b6a8f183ac45242cd5aed5c2c--89fe110adf5164dc41de0320a5b27ce8caa4582ab3b12d98a0299fa84d2e0d0b.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -715,7 +715,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%98%9F%E5%85%89%E5%BE%BD%E7%AB%A0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%98%9F%E5%85%89%E5%BE%BD%E7%AB%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/72c77914312b4b9f051c263fbd1ac6464de2cd4422dcdf8973ce552de2e087bb--ccb3e2b95f7413b89d4f5d57e7198be9eb6a0c7d78257f28a76c91de036d2163.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -741,7 +741,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%98%9F%E9%99%85%E8%88%B7%E7%AA%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%98%9F%E9%99%85%E8%88%B7%E7%AA%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c2518fb61863c0cc00f2525f6840bed9cd3b66d355d800e4590d250e6aaf9c59--d896480307eb104b7fca534cc3850bd251f706f6188a12cc760beba4a166b8f7.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -767,7 +767,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%9E%81%E5%85%89%E9%9A%A7%E9%81%93/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%9E%81%E5%85%89%E9%9A%A7%E9%81%93/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/dde3eed25a41b2be211c399a22b557bb8490c458a7629da8ce74bfc2af1cc272--98d90c281a27da91fdbf4ff4fe685caed2efa2433607f67acd6e83d04d833983.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -792,7 +792,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%9F%94%E5%BD%A9%E6%89%87%E5%BD%A2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2cbdd7219a0d08bc53ae1a0d1e70360847ea8d78717e792591fac3a947753a3c--360eefc421f4fec836088a7559ebe237764415fc7cc6c8fd6357d83c1938c7a2.zip",
       "downloadCount": 2,
       "downloadSources": [
@@ -817,7 +817,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%9F%94%E9%9B%BE%E5%B1%85%E4%B8%AD%E6%A0%87%E9%A2%98/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/f9d0b9f91c50ebd9f61223437457287e3d84f9e269db935c842407ab24df017d--bde708bf95e0d9adf363093d991b0d434a88174a50f778f2f8972b194c93df47.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -843,7 +843,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%A1%A3%E6%A1%88%E6%8A%BD%E5%B1%89/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A1%A3%E6%A1%88%E6%8A%BD%E5%B1%89/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b350a80490de81ba4bbc77b47042d0be86bc516efb4a2c3aadbcf2bc7dfb2ffb--ca484813d11f3b105bf3386af2c05c997bca02437b7f78e58fa058e86104de67.zip",
       "downloadCount": 5,
       "downloadSources": [
@@ -869,7 +869,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%A8%A1%E5%9D%97%E4%BB%AA%E8%A1%A8/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%A1%E5%9D%97%E4%BB%AA%E8%A1%A8/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e326156ea99fca25df742115516311611b8410c538b34eebe3fbbe6fb50af89b--45334aa4ec30a7c9212a367bc532200401cf5210f9876a6e473b141d1e81226e.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -894,13 +894,325 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E5%B9%85%E8%83%8C%E6%99%AF%E6%B5%B7%E6%8A%A5%E5%88%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/749c1cf8553f26992bf49c27eb1e8a7e35fe1597a811ad2695edd7fa3756a0bd--72e67da4391a8e136b563377e7f9cc6facb28d8e8b1aded9eb541664d815ec41.zip",
       "downloadCount": 3,
       "downloadSources": [
         {
           "releaseId": 411414335,
           "downloadCount": 3
+        }
+      ]
+    },
+    {
+      "id": "b8e275d9c8d4dc32f3068f6ea5d0bb9d66e6e2deb4be6d7e736cc37f1a9cf93c",
+      "revision": "77c535ab68dadf375c4a752086d4cb9ed6ae548b88b892cd329c3cb99138adb9",
+      "name": "横景竖封 · 三幕长廊",
+      "description": "横版素材 + 竖版封面。三幅完整比例背景图沿细长展览索引上下排列，深蓝底色与清晰标题衬托横向场景。使用 3 张横图。",
+      "width": 1200,
+      "height": 1800,
+      "folder": "横景竖封三幕长廊",
+      "packageSha256": "2aa1b44065963cf89c2a6dcc601458dc39634350ffd8aabc681ec840f86d1f07",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E4%B8%89%E5%B9%95%E9%95%BF%E5%BB%8A/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b8e275d9c8d4dc32f3068f6ea5d0bb9d66e6e2deb4be6d7e736cc37f1a9cf93c--77c535ab68dadf375c4a752086d4cb9ed6ae548b88b892cd329c3cb99138adb9.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "da09e803e207dc1cf93004931fe3f61be27cd921f59ff60f0370cd3ead1bc7a4",
+      "revision": "a16b6c0caac5ba5d06616631e01cc770a2997c0c3dcf8bd3937ff5eff3d02cc4",
+      "name": "横景竖封 · 双幕留白",
+      "description": "横版素材 + 竖版封面。两幅 16:9 背景图上下陈列，暖白留边与底部大标题组成简洁双幕画册。使用 2 张横图。",
+      "width": 1200,
+      "height": 1800,
+      "folder": "横景竖封双幕留白",
+      "packageSha256": "ae99822d84fde2039805a41e7a05b897347363b48fcca63dc9f9c4441f083f0f",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E5%8F%8C%E5%B9%95%E7%95%99%E7%99%BD/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/da09e803e207dc1cf93004931fe3f61be27cd921f59ff60f0370cd3ead1bc7a4--a16b6c0caac5ba5d06616631e01cc770a2997c0c3dcf8bd3937ff5eff3d02cc4.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "25129b8af852ef87571af6d1f9a45aed271b9fd97830359fc26b1e65c9a2fdc5",
+      "revision": "43eb940954572756cdb139f4e59e20e849dcc38bb72295d76c76687d6b65dc7d",
+      "name": "横景竖封 · 幕间书签",
+      "description": "横版素材 + 竖版封面。两幅宽银幕场景之间插入酒红书签式标题区，暖金线条与深红留白形成幕间停顿。使用 2 张横图。",
+      "width": 1200,
+      "height": 1800,
+      "folder": "横景竖封幕间书签",
+      "packageSha256": "501de01ea8d976da9f9233c1316ed25c40d836eafdf451eb5b364ea3d0c3bf1b",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E5%B9%95%E9%97%B4%E4%B9%A6%E7%AD%BE/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/25129b8af852ef87571af6d1f9a45aed271b9fd97830359fc26b1e65c9a2fdc5--43eb940954572756cdb139f4e59e20e849dcc38bb72295d76c76687d6b65dc7d.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "dafa47ec5bed8716aaaa74de4514789c1fb190c3eedf94e45e96851830e2398e",
+      "revision": "399ede29073e3bd684809a67a6b2984f39555d958939cd58967c6dec326a1215",
+      "name": "横景竖封 · 浮光灯箱",
+      "description": "横版素材 + 竖版封面。三张横向剧照以细光框错角层叠，深紫蓝背景与顶部标题构成夜间灯箱画面。使用 3 张横图。",
+      "width": 1200,
+      "height": 1800,
+      "folder": "横景竖封浮光灯箱",
+      "packageSha256": "6d1fd7b27bf9182f77ca4a72fd0a595064b6ed3710e9465ca0d06db2be8915bf",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E6%B5%AE%E5%85%89%E7%81%AF%E7%AE%B1/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/dafa47ec5bed8716aaaa74de4514789c1fb190c3eedf94e45e96851830e2398e--399ede29073e3bd684809a67a6b2984f39555d958939cd58967c6dec326a1215.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "cf3bbb79ef8d0ef585bc7f3d4e5eae4f068ab05eb77428ef8b23887487b25b92",
+      "revision": "f8c620b017c56616ed6c0d8a95fb407ac984c95b644a458edc07fc6b037f4d03",
+      "name": "横景竖封 · 银幕便笺",
+      "description": "横版素材 + 竖版封面。一幅宽景主图与两张错落便笺，奶油纸面、手册式标题和朱红索引组成影片收藏页。使用 3 张横图。",
+      "width": 1200,
+      "height": 1800,
+      "folder": "横景竖封银幕便笺",
+      "packageSha256": "ba80d9d7a32b772bf4f01cec8088fa6c556648b43d273b3337f557bea8fe3b26",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E9%93%B6%E5%B9%95%E4%BE%BF%E7%AC%BA/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf3bbb79ef8d0ef585bc7f3d4e5eae4f068ab05eb77428ef8b23887487b25b92--f8c620b017c56616ed6c0d8a95fb407ac984c95b644a458edc07fc6b037f4d03.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "41c034ddbebda6fa314f6460b1e400af3a50aa2c6a1abf969ea18dc62d379e72",
+      "revision": "24ba88a1d51bf88fee930c6e968d5227c3f602531f6c561c1992673fff062202",
+      "name": "横景竖封 · 黑白场记",
+      "description": "横版素材 + 竖版封面。黑白场记板标题、四格横图与底部宽幅主幕组成五场系列目录。使用 5 张横图。",
+      "width": 1200,
+      "height": 1800,
+      "folder": "横景竖封黑白场记",
+      "packageSha256": "30ff192f7bb172a159354526c0515633ab67c5926955bcaab8c3935cbea2642c",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E9%BB%91%E7%99%BD%E5%9C%BA%E8%AE%B0/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/41c034ddbebda6fa314f6460b1e400af3a50aa2c6a1abf969ea18dc62d379e72--24ba88a1d51bf88fee930c6e968d5227c3f602531f6c561c1992673fff062202.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "456488d9134c6f37b78d5ff4acec194310c64f4c4706bb439c8338aaf36c36ce",
+      "revision": "ac4330bcfa3d3d8b1cd94ca8db034ab7f5ccc4f0d393d83c02fb5324800d4478",
+      "name": "横景横封 · 三色片夹",
+      "description": "横版素材 + 横版封面。浅色片库桌面、左侧大标题，三只彩色片夹收纳完整比例的横向影片背景。使用 3 张横图。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横版合集三色片夹",
+      "packageSha256": "8b94df121f606abdcaf54f7c8db7595331c0251c762ec673ffc96c23e3897bf5",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E4%B8%89%E8%89%B2%E7%89%87%E5%A4%B9/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/456488d9134c6f37b78d5ff4acec194310c64f4c4706bb439c8338aaf36c36ce--ac4330bcfa3d3d8b1cd94ca8db034ab7f5ccc4f0d393d83c02fb5324800d4478.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "d3441cca2c2ee249fdc950b048b3411ae4ec2c45f1229df1d9e22b64db39b6ee",
+      "revision": "69ecb8852ec9a4bce727d4f6e969cbbdf55fd18d1fe0231a842de6b723ed41e6",
+      "name": "横景横封 · 典藏书盒",
+      "description": "横版素材 + 横版封面。暖灰绿桌面与横向典藏书盒，单幅影片背景作为完整书盒正面，侧面和顶面构成立体封套。使用 1 张横图。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横版合集典藏书盒",
+      "packageSha256": "34f0ae1b71ae175d3d3a4dc6ee4fbfeb4aef71a1f42a2ad9fa345283bece32b2",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E5%85%B8%E8%97%8F%E4%B9%A6%E7%9B%92/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d3441cca2c2ee249fdc950b048b3411ae4ec2c45f1229df1d9e22b64db39b6ee--69ecb8852ec9a4bce727d4f6e969cbbdf55fd18d1fe0231a842de6b723ed41e6.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "1ac7da72368f7f218ae6895ecd45426e67e769ee7cf18899806431413ca27a56",
+      "revision": "833afe24125b1977714965ea13b89175c51aa273903ab6532ae451adf08f10a1",
+      "name": "横景横封 · 折页连章",
+      "description": "横版素材 + 横版封面。四幅宽景展开为手风琴式折页，姜黄纸面、大标题与折缝阴影营造系列画册感。使用 4 张横图。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横版合集折页连章",
+      "packageSha256": "fa24039d8a2f9e40804167f7959944543d87849678feb3320c63c342aba2fdd4",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E6%8A%98%E9%A1%B5%E8%BF%9E%E7%AB%A0/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/1ac7da72368f7f218ae6895ecd45426e67e769ee7cf18899806431413ca27a56--833afe24125b1977714965ea13b89175c51aa273903ab6532ae451adf08f10a1.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "da91a6563773b030b00050ba8fb97c10f4e8cc88b1f4958f0d086337e35aae90",
+      "revision": "e04690fb656fb1673affbd4afa84101639f4b42b51a9a89dff01816792009023",
+      "name": "横景横封 · 放映时间轴",
+      "description": "横版素材 + 横版封面。三张 16:9 成员背景图沿放映时间轴排列，顶部大标题与珊瑚红章节节点连接整个系列。优先读取 Backdrop，缺失时回退 Thumb 或海报。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横版合集放映时间轴",
+      "packageSha256": "635c4283ab630d124ecb46ea37bb4889994f308650e290766cb8c4d9d47bae06",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E6%94%BE%E6%98%A0%E6%97%B6%E9%97%B4%E8%BD%B4/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/da91a6563773b030b00050ba8fb97c10f4e8cc88b1f4958f0d086337e35aae90--e04690fb656fb1673affbd4afa84101639f4b42b51a9a89dff01816792009023.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "cdbfbec0058b08a6664a6ee59548b71c7aab521522f0b027c353da85224aef19",
+      "revision": "350e2546530eeb479d34d41aab77ad0267dcaf77baadc1c6a0bdd035148f0435",
+      "name": "横景横封 · 红幕首映",
+      "description": "横版素材 + 横版封面。酒红幕布、居中标题，三幅宽银幕背景图层叠在舞台中央，首幅影片背景作为主视觉。使用 3 张横图。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横版合集红幕首映",
+      "packageSha256": "33f950c0c85fd428ae718cb707fbe992d59a5aa0a9f39b5903d6d30a930f3067",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E7%BA%A2%E5%B9%95%E9%A6%96%E6%98%A0/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cdbfbec0058b08a6664a6ee59548b71c7aab521522f0b027c353da85224aef19--350e2546530eeb479d34d41aab77ad0267dcaf77baadc1c6a0bdd035148f0435.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
+        }
+      ]
+    },
+    {
+      "id": "30d4cdff53e053053c0a1c4ded7520ee632786e8baf66e1304d9907f7ca4ac05",
+      "revision": "3ccd9466883276ab4c55c0673b215c64a57aaabbca12183f6e87e5bebc4b1b6d",
+      "name": "横景横封 · 连环分镜",
+      "description": "横版素材 + 横版封面。一幅大分镜配两幅横向副分镜，粗边框与珊瑚色章节索引形成连环画式编排。使用 3 张横图。",
+      "width": 1920,
+      "height": 1080,
+      "folder": "横版合集连环分镜",
+      "packageSha256": "8dc0390a58aa89d2e289e064c9e87aa4ec0ec2871e1bd0447ec28dcb28ad37ff",
+      "version": "1.0.0",
+      "author": {
+        "name": "HappyQuQu",
+        "url": "https://github.com/HappyQuQu"
+      },
+      "changelog": "首次发布：横向背景素材专用；支持合集名称、副标题和逐成员横图替换。",
+      "minAppVersion": "1.11.0",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E8%BF%9E%E7%8E%AF%E5%88%86%E9%95%9C/preview.jpg",
+      "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/30d4cdff53e053053c0a1c4ded7520ee632786e8baf66e1304d9907f7ca4ac05--3ccd9466883276ab4c55c0673b215c64a57aaabbca12183f6e87e5bebc4b1b6d.zip",
+      "downloadCount": 0,
+      "downloadSources": [
+        {
+          "releaseId": 411414335,
+          "downloadCount": 0
         }
       ]
     },
@@ -920,7 +1232,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E6%B6%9F%E6%BC%AA%E7%95%99%E7%99%BD/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E6%B6%9F%E6%BC%AA%E7%95%99%E7%99%BD/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/203333ef1aea0e81a08003c6c98446ae10491ed69b5deb4e512b51e55719950b--6a3d6330d2f887e0cd04321437517e5bbf1935daf34b6999636530ed7b446e1b.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -946,7 +1258,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%94%B5%E5%BD%B1%E6%97%A5%E5%8E%86/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%94%B5%E5%BD%B1%E6%97%A5%E5%8E%86/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/78facf4d8b75233581602f38bc111f081f52f22d47e364d734ddd4a7b0081173--765c948d32f531f756a20f01071990a8611eb23fbb42f8299a08aadc0fa52acc.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -971,7 +1283,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%9B%B4%E5%88%97%E6%B5%B7%E6%8A%A5%E5%A2%99/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7c32a62b499e380e6289e610b3b5c183d2519b6ae27377bd5feee74d80a65339--5ce48a8aa7662b19d561e2d388a8ffd8a2e67165b0751e33b8a57b59a5bf0ceb.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -996,7 +1308,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%A2%8E%E7%89%87%E6%A3%B1%E9%95%9C/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%A2%8E%E7%89%87%E6%A3%B1%E9%95%9C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/410bc7cc1f38bf3b503da08c4b33ddc9f5f730ed5befd652f263b89cb55fd018--dde5769ff8ca65d2dbabd285f856096e532e1d4a303d934f34f3c2c084695137.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -1021,7 +1333,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7.zip",
       "downloadCount": 13,
       "downloadSources": [
@@ -1047,7 +1359,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%AB%96%E5%B9%85%E7%94%BB%E5%8D%B7/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%AB%96%E5%B9%85%E7%94%BB%E5%8D%B7/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/4c97ead02d45e510f6f4a755b2a3cde4e50abf393a079356af55f84029764550--182053b11c6d437d5b759d37c619791c65e8951304d4f44806083d9042fbdb55.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -1073,7 +1385,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%BC%96%E5%8F%B7%E6%B5%B7%E6%8A%A5/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%BC%96%E5%8F%B7%E6%B5%B7%E6%8A%A5/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b4d20159fd102f843a87779c435b4e1ffd302f34c8b3ee351ecc1608522d1ddd--a60880fcbd5d322c75fed255e77a60cad4b9efeb3ef1a25d95f6e0d9f0c6bc3b.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -1099,7 +1411,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E7%BD%91%E6%A0%BC%E8%84%89%E5%86%B2/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E7%BD%91%E6%A0%BC%E8%84%89%E5%86%B2/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/280b74af7c07fd31a140a141e91ea671656adb916dde88f60c4dabef1ad24d88--f76bc8836056d82d6dc570c2e2fbb9714fdd84e87c5f36a4ea882ce60a9e4ed3.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -1125,7 +1437,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E8%83%B6%E5%9B%8A%E8%A7%86%E7%AA%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E8%83%B6%E5%9B%8A%E8%A7%86%E7%AA%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/7d7f7921b259332880bbd512c448199365b27295d0561fc88a92239da18f3f72--ba78b69fab9e6db5263ed8e5354fb897d97e112bfefcd43f4dcdad2296c9c103.zip",
       "downloadCount": 6,
       "downloadSources": [
@@ -1150,7 +1462,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E8%83%B6%E7%89%87%E6%94%BE%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/cf43df73f728318c9820591fc9d93b69feb964c4105cf6f51ca4fb2c6423d261--af9cd7221a53ba22706a714b698f03ae473bb7d1d87caae18f157ccc6d3521ef.zip",
       "downloadCount": 10,
       "downloadSources": [
@@ -1175,7 +1487,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E8%9C%82%E5%B7%A2%E6%8B%BC%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/0ff7c21db18d5a8d8509eebfc5dd6589a6833e418cf3b4ece136b746f8d5692d--e408d8398516c98892a5753f954653d1de5c323378a81007f42c96f541813957.zip",
       "downloadCount": 6,
       "downloadSources": [
@@ -1200,7 +1512,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E8%B5%A4%E7%84%B0%E5%BF%AB%E9%97%A8/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E8%B5%A4%E7%84%B0%E5%BF%AB%E9%97%A8/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e221db84e5be12d62cda1c30307e5d7c9d712949454c45fda2f8384eedfcbcca--6c7375316622f7d3282d6063e4a53da089893326b4ac5e2bd86c425d8f81e6ab.zip",
       "downloadCount": 12,
       "downloadSources": [
@@ -1225,7 +1537,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E8%BD%A8%E9%81%93%E6%98%9F%E5%9B%BE/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e4bac880ee57f0d008de6a5e93eddc083d11f05375a871420660cb070c9dfd54--0cf7d62e5e0bc1598793da0693c706d495092cf56fbdeee74705e8440e2bbcab.zip",
       "downloadCount": 5,
       "downloadSources": [
@@ -1251,7 +1563,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%82%AE%E7%A5%A8%E6%97%85%E8%A1%8C/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%82%AE%E7%A5%A8%E6%97%85%E8%A1%8C/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/1766943fa1c895bae9ec7b9cb9ae94bf1aeb7332abb1f8c7e3673877098b7b33--cb859213f9482bf00eb3b23b1f5744c21e27e44687a4d0a0994b0fb85d14de97.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -1276,7 +1588,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%93%B6%E5%B9%95%E6%8A%98%E9%A1%B5/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%93%B6%E5%B9%95%E6%8A%98%E9%A1%B5/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d27269b8880726ae30d26b10e26836c4bd6b91ab321a5c73f3470898fe486288--184d31c2aadfb1b33c8d4b21f432546503a576e4c1fd8b3cdf94a47591ed81fb.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -1302,7 +1614,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%93%B6%E8%89%B2%E6%B5%AE%E5%B2%9B/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%93%B6%E8%89%B2%E6%B5%AE%E5%B2%9B/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d358995f24505dc7d918d5a2f0680704ebb2a3b3cfc92d33c6547239d13081f9--3d8808fe5fb7327266bac59c5d282669f77a179e71e980a62b7125488cc61da7.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -1328,7 +1640,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%95%9C%E5%A4%B4%E5%85%89%E5%9C%88/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%95%9C%E5%A4%B4%E5%85%89%E5%9C%88/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/d6f3635e942f81b1bf3132ae3f1482a1252d45ccec3b0048a0c27f3b2ee42001--a4aebec674562e673eab5e6969820116ceba86ad4d39b11e8cb5eb71fe43d19c.zip",
       "downloadCount": 3,
       "downloadSources": [
@@ -1353,7 +1665,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%9C%93%E8%99%B9%E6%A9%B1%E7%AA%97/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%9C%93%E8%99%B9%E6%A9%B1%E7%AA%97/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b0dac9ad87442c019357c28c8e11f4f3689b610d91fcc0d2d1c2c5d9db1de51a--b809703a13237cb5bcae0f6817615c1a3082e5cc917248db80a72b61669a6186.zip",
       "downloadCount": 7,
       "downloadSources": [
@@ -1379,7 +1691,7 @@
       },
       "changelog": "首次发布；可编辑的画布图层、媒体库标题变量与海报变量。",
       "minAppVersion": "1.5.0",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%BB%91%E7%99%BD%E6%A3%8B%E7%9B%98/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%BB%91%E7%99%BD%E6%A3%8B%E7%9B%98/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/2fd750a28c195689629372e866157a6caad4be58818ccdfde4a6c99513b25e89--35a4751cb29af25b90f3788276f0d77b0e1203c0aebd826bbf71bd2e387c41b5.zip",
       "downloadCount": 4,
       "downloadSources": [
@@ -1404,7 +1716,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "首次发布；提供版本、作者与模板说明。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%BB%91%E8%83%B6%E5%94%B1%E7%89%87/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/56e82d12e24b52b6e841963422a5b8d9a48d035106414284fe15fe251932bd64--ba09d0a69e01197918095183ed04aeada372757418681fe994a800795030d292.zip",
       "downloadCount": 5,
       "downloadSources": [
@@ -1429,7 +1741,7 @@
         "url": "https://github.com/HappyQuQu"
       },
       "changelog": "深色试作首版，独立构图，可编辑图层与媒体库变量。",
-      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/29a5f14e63ebca5bdb8c7dfbff600dbacda1f716/%E9%BB%91%E9%87%91%E5%B1%95%E5%8F%B0/preview.jpg",
+      "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/cb359e889f372871ffc39602d95def62684ea5cb/%E9%BB%91%E9%87%91%E5%B1%95%E5%8F%B0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/df6b71418de17e0a1b76fd2bbb157c3ae10b5086c01ff1289f5d8c324d7f68f1--ad8c947d5932913009866e1301c573e278ecf6658a3a535804b3eb919bb1e04f.zip",
       "downloadCount": 7,
       "downloadSources": [
