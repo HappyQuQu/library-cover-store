@@ -1,0 +1,656 @@
+{
+  "version": 1,
+  "templates": {
+    "三角拼版": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "云端书签": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "交错书脊": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "倾斜圆角海报墙": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "海报墙",
+        "叠卡"
+      ]
+    },
+    "全景夜航": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "午夜阶梯": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "双页对照": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "合集六幕系列": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "合集斜幕拼章": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "合集极夜叠映": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "合集画册索引": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "合集胶片长卷": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "复古",
+        "电影"
+      ]
+    },
+    "合集黑金典藏": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "四幕蒙太奇": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "圆角叠卡": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "海报墙",
+        "叠卡"
+      ]
+    },
+    "地平银幕": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "复古终端": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "科技",
+        "复古",
+        "终端"
+      ]
+    },
+    "夜刊封面": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "宝石切面": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "层叠画框": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "展签留白": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "弧线长廊": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "影像画册": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "拱门广场": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "拼贴便笺": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "摄影暗房": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "斜切大图": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "极简",
+        "主视觉"
+      ]
+    },
+    "星光徽章": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "柔光",
+        "想象"
+      ]
+    },
+    "星际舷窗": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "柔光",
+        "想象"
+      ]
+    },
+    "极光隧道": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "柔彩扇形": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "柔光",
+        "想象"
+      ]
+    },
+    "柔雾居中标题": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "极简",
+        "柔光",
+        "纯文字"
+      ]
+    },
+    "档案抽屉": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "模块仪表": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "横幅背景海报列": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "海报墙",
+        "叠卡"
+      ]
+    },
+    "横景竖封三幕长廊": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "横景竖封双幕留白": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "横景竖封幕间书签": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "横景竖封浮光灯箱": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "横景竖封银幕便笺": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "横景竖封黑白场记": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "复古",
+        "电影"
+      ]
+    },
+    "横版合集三色片夹": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "横版合集典藏书盒": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "横版合集折页连章": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "横版合集放映时间轴": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "横版合集红幕首映": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "横版合集连环分镜": {
+      "recommendedUses": [
+        "collection"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "涟漪留白": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "柔光",
+        "想象"
+      ]
+    },
+    "电影日历": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "直列海报墙": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "海报墙",
+        "叠卡"
+      ]
+    },
+    "碎片棱镜": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "票根收藏": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "复古",
+        "电影"
+      ]
+    },
+    "竖幅画卷": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "编号海报": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "收藏",
+        "编排"
+      ]
+    },
+    "网格脉冲": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "胶囊视窗": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "胶片放映": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "复古",
+        "电影"
+      ]
+    },
+    "蜂巢拼图": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "赤焰快门": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "轨道星图": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "柔光",
+        "想象"
+      ]
+    },
+    "邮票旅行": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "纸面",
+        "画册",
+        "留白"
+      ]
+    },
+    "银幕折页": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "银色浮岛": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "柔光",
+        "想象"
+      ]
+    },
+    "镜头光圈": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "霓虹橱窗": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    },
+    "黑白棋盘": {
+      "recommendedUses": [
+        "library"
+      ],
+      "tags": [
+        "几何",
+        "拼图"
+      ]
+    },
+    "黑胶唱片": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "复古",
+        "电影"
+      ]
+    },
+    "黑金展台": {
+      "recommendedUses": [
+        "library",
+        "collection"
+      ],
+      "tags": [
+        "电影",
+        "光影",
+        "深色"
+      ]
+    }
+  }
+}

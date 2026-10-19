@@ -172,6 +172,45 @@ class PublishingTests(unittest.TestCase):
         with zipfile.ZipFile(io.BytesIO(publisher.make_package(publisher.scan_templates(self.root)[0]))) as archive:
             self.assertEqual(json.loads(archive.read('template.json'))['author'], data['author'])
 
+    def test_classification_refresh_does_not_repackage_or_change_revisions(self):
+        self.template()
+        client = FakeGitHub()
+        original = self.run_publish(client)['templates'][0]
+        index = {'version': 1, 'templates': {'胶片放映': {'recommendedUses': ['library', 'collection'], 'tags': ['复古', '电影']}}}
+        (self.root / 'classifications.json').write_text(json.dumps(index))
+        with patch.object(publisher, 'make_package', side_effect=AssertionError('Classification does not alter packages')):
+            classified = self.run_publish(client)['templates'][0]
+        self.assertEqual(classified['classification'], {'recommendedUses': ['library', 'collection'], 'tags': ['复古', '电影'], 'artworkType': 'none', 'artworkCount': 0})
+        self.assertEqual(classified['revision'], original['revision'])
+        self.assertEqual(classified['packageSha256'], original['packageSha256'])
+        self.assertEqual(client.uploads, 1)
+        index['templates']['胶片放映']['tags'] = ['胶片']
+        (self.root / 'classifications.json').write_text(json.dumps(index))
+        self.assertEqual(self.run_publish(client)['templates'][0]['classification']['tags'], ['胶片'])
+        self.assertEqual(client.uploads, 1)
+
+    def test_classification_index_requires_complete_valid_coverage(self):
+        self.template()
+        for entry in ({}, {'missing': {'recommendedUses': ['library'], 'tags': []}},
+                      {'胶片放映': {'recommendedUses': ['invalid'], 'tags': []}},
+                      {'胶片放映': {'recommendedUses': ['library'], 'tags': ['duplicate', 'duplicate']}}):
+            with self.subTest(entry=entry):
+                (self.root / 'classifications.json').write_text(json.dumps({'version': 1, 'templates': entry}))
+                with self.assertRaises(ValueError):
+                    publisher.scan_templates(self.root)
+
+    def test_artwork_summary_distinguishes_sources_bindings_and_decoration(self):
+        self.assertEqual(publisher.artwork_summary({'objects': [{'src': 'decorative.jpg'}]}), {'artworkType': 'none', 'artworkCount': 0})
+        canvas = {'objects': [{'objects': [{'posterVar': 'post3'}, {'posterVar': 'post9', 'visible': False}]},
+                              {'objects': [{'posterVar': 'post8'}], 'opacity': 0}]}
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'poster', 'artworkCount': 3})
+        canvas['posterSource'] = 'backdrop'
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'backdrop', 'artworkCount': 3})
+        canvas['posterSource'] = 'poster'
+        canvas['posterBackground'] = {'source': 'backdrop'}
+        self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'mixed', 'artworkCount': 3})
+        self.assertEqual(publisher.artwork_summary({'posterBackground': {'source': 'backdrop'}}), {'artworkType': 'backdrop', 'artworkCount': 1})
+
     def test_legacy_metadata_defaults_and_invalid_fields(self):
         self.assertEqual(publisher.metadata({}), {'version': '1.0.0', 'changelog': ''})
         for data in ({'version': '1.0'}, {'version': '01.0.0'}, {'author': 'someone'},

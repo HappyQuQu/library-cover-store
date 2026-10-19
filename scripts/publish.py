@@ -103,7 +103,58 @@ def metadata(data):
     return result
 
 
+def artwork_summary(canvas):
+    """Summarize bound artwork, never decorative images or the preview's aspect ratio."""
+    highest = 0
+    def visit(objects):
+        nonlocal highest
+        for obj in objects:
+            if obj.get('visible') is False or obj.get('opacity', 1) == 0:
+                continue
+            variable, source = obj.get('posterVar', ''), obj.get('src', '')
+            match = re.fullmatch(r'post([1-9])', variable) if isinstance(variable, str) else None
+            if not match and isinstance(source, str):
+                match = re.search(r'\{\{poster([1-9])\}\}|/posters/([1-9])\.(?:jpg|jpeg|png)', source)
+            if match:
+                highest = max(highest, int(next(group for group in match.groups() if group)))
+            elif obj.get('isPoster') or source == '{{poster}}':
+                highest = max(highest, 1)
+            visit(obj.get('objects', []))
+    visit(canvas.get('objects', []))
+    background = canvas.get('posterBackground') or {}
+    sources = set()
+    if highest or background.get('source') == 'poster':
+        sources.add('backdrop' if canvas.get('posterSource') == 'backdrop' else 'poster')
+    if background.get('source') == 'backdrop':
+        sources.add('backdrop')
+    kind = 'mixed' if len(sources) > 1 else next(iter(sources), 'none')
+    return {'artworkType': kind, 'artworkCount': max(highest, 1 if background else 0)}
+
+
+def read_classifications(root):
+    file = root / 'classifications.json'
+    if not file.exists():
+        return None
+    data = json.loads(file.read_text(encoding='utf-8'))
+    if not isinstance(data, dict) or data.get('version') != 1 or not isinstance(data.get('templates'), dict):
+        raise ValueError('classifications.json 需要 version: 1 和 templates 索引')
+    for folder, value in data['templates'].items():
+        if not isinstance(value, dict) or set(value) != {'recommendedUses', 'tags'}:
+            raise ValueError(f'{folder}: 分类需包含 recommendedUses 和 tags')
+        uses, tags = value['recommendedUses'], value['tags']
+        if (not isinstance(uses, list) or not uses
+                or any(not isinstance(use, str) or use not in ('library', 'collection') for use in uses)
+                or len(uses) != len(set(uses))):
+            raise ValueError(f'{folder}: recommendedUses 仅允许 library、collection，不能重复或为空')
+        if (not isinstance(tags, list) or len(tags) > 12
+                or any(not isinstance(tag, str) or not tag.strip() or tag != tag.strip() or len(tag) > 40 for tag in tags)
+                or len(tags) != len(set(tags))):
+            raise ValueError(f'{folder}: tags 需为最多 12 个不重复的短标签')
+    return data['templates']
+
+
 def scan_templates(root):
+    classifications = read_classifications(root)
     result = []
     for directory in sorted(root.iterdir()):
         if not directory.is_dir() or directory.name.startswith('.') or directory.name in RESERVED:
@@ -160,6 +211,12 @@ def scan_templates(root):
                        'width': data['width'], 'height': data['height'], 'folder': directory.name,
                        'previewFile': preview_file.name, 'templatePath': template_file, 'previewPath': preview_file, 'fontPaths': fonts,
                        'assetName': f'{template_id}--{revision}.zip'})
+        if classifications is not None:
+            if directory.name not in classifications:
+                raise ValueError(f'{directory.name}: 缺少商店分类，请补齐 classifications.json')
+            result[-1]['classification'] = {**classifications[directory.name], **artwork_summary(canvas)}
+    if classifications is not None and set(classifications) != {item['folder'] for item in result}:
+        raise ValueError('classifications.json 包含不存在的模板文件夹')
     return result
 
 
@@ -294,7 +351,7 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
             raise ValueError(f"{item['folder']}: Release 附件校验不一致，请勿手工替换附件")
         entry = {key: item[key] for key in ('id', 'revision', 'name', 'description', 'width', 'height', 'folder')}
         entry['packageSha256'] = checksum
-        entry.update({key: item[key] for key in ('version', 'author', 'changelog', 'minAppVersion') if key in item})
+        entry.update({key: item[key] for key in ('version', 'author', 'changelog', 'minAppVersion', 'classification') if key in item})
         entry.update({'previewUrl': f"https://raw.githubusercontent.com/{github.repository}/{source_sha}/{quote(item['folder'], safe='')}/{item['previewFile']}",
                       'packageUrl': asset['browser_download_url'], 'downloadCount': counts.get(item['id'], 0),
                       'downloadSources': list(sources.get(item['id'], {}).values())})

@@ -142,6 +142,30 @@
 
 也可以在 [Releases](https://github.com/HappyQuQu/library-cover-store/releases) 下载单套模板 ZIP，在应用「模板库 → 导入模板」中手动导入。不要使用 GitHub 自动生成的整个仓库 Source code ZIP。
 
+## 商店分类与搜索
+
+商店通过根目录 `classifications.json` 维护每套模板的推荐用途和搜索标签，以模板文件夹名为键。现有全部 68 套已标注；新增、删除或重命名模板时同步维护索引。`scripts/publish.py check` 会校验索引与模板一一对应。
+
+```json
+{
+  "version": 1,
+  "templates": {
+    "横景竖封双幕留白": {
+      "recommendedUses": ["collection"],
+      "tags": ["纸面", "画册", "留白"]
+    }
+  }
+}
+```
+
+- `recommendedUses`：`library`（媒体库）、`collection`（合集），可同时推荐两种用途；这是推荐，不限制模板实际使用范围。
+- `tags`：最多 12 个不重复的标签，每个不超过 40 字符，用于搜索，不作为额外的风格筛选菜单。
+- 发布脚本从真实画布生成 `classification.artworkType`：`poster`（海报）、`backdrop`（横向剧照）、`mixed`（混合素材）、`none`（无需图片）。横向剧照的缺图回退逻辑保持有效。
+- `classification.artworkCount` 根据图片变量及背景绑定计算，重复使用相同变量的图层不重复计数；表示排版使用的素材槽位，素材不足时应用会复用已有图片。
+- 成品横版、竖版、方形由 `width` / `height` 判断，独立于图片素材类型。
+
+分类仅写入商店目录，不修改模板 JSON、ZIP 或版本指纹。补充或调整分类不会制造模板更新、重新上传 ZIP 或清空累计下载次数。推荐用途与标签从索引读取，素材类型从画布读取，不根据模板名称猜测。
+
 ## 提交模板
 
 可以选择两种制作方式：从应用导出现有设计，或克隆仓库，用 Codex、Claude Code 等 AI 工具制作新模板。完成后都按下面的文件格式、校验和 Pull Request 流程提交。
