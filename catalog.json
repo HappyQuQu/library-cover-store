@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-19T22:26:54.173950Z",
+  "generatedAt": "2026-10-20T01:53:49.156031Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -1565,11 +1565,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/393a36b4f14b57d2d04e14862d6168ee1251713b/%E6%A8%AA%E7%89%88%E5%90%88%E9%9B%86%E4%B8%89%E8%89%B2%E7%89%87%E5%A4%B9/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/456488d9134c6f37b78d5ff4acec194310c64f4c4706bb439c8338aaf36c36ce--ac4330bcfa3d3d8b1cd94ca8db034ab7f5ccc4f0d393d83c02fb5324800d4478.zip",
-      "downloadCount": 3,
+      "downloadCount": 4,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 3
+          "downloadCount": 4
         }
       ]
     },
@@ -1978,11 +1978,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/393a36b4f14b57d2d04e14862d6168ee1251713b/%E7%A5%A8%E6%A0%B9%E6%94%B6%E8%97%8F/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/502de12bd88bb8c64d44d4e244ad61c1d745dd17b63fa82bcf0e925b53849153--073ba639666dfc9dadf1f77318bd9db3a61d94776e886a87f6bf50a9e16fa0d7.zip",
-      "downloadCount": 14,
+      "downloadCount": 15,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 14
+          "downloadCount": 15
         }
       ]
     },
@@ -2237,11 +2237,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/393a36b4f14b57d2d04e14862d6168ee1251713b/%E8%B5%A4%E7%84%B0%E5%BF%AB%E9%97%A8/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/e221db84e5be12d62cda1c30307e5d7c9d712949454c45fda2f8384eedfcbcca--6c7375316622f7d3282d6063e4a53da089893326b4ac5e2bd86c425d8f81e6ab.zip",
-      "downloadCount": 14,
+      "downloadCount": 15,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 14
+          "downloadCount": 15
         }
       ]
     },
