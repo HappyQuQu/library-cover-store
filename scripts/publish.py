@@ -291,11 +291,31 @@ class GitHub:
         self.request('/contents/catalog.json', 'PUT', data)
 
 
+def publication_time(value):
+    """Normalize known publication dates; never substitute a catalog refresh time."""
+    if not isinstance(value, str):
+        return None
+    try:
+        timestamp = datetime.fromisoformat(value.replace('Z', '+00:00'))
+        if timestamp.tzinfo is None:
+            return None
+        return timestamp.astimezone(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
+    except (ValueError, OverflowError):
+        return None
+
+
 def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=time.sleep):
     if not re.fullmatch(r'[a-f0-9]{40}', source_sha):
         raise ValueError('无效的 source commit SHA')
     previous, previous_sha = github.read_catalog()
     previous_entries = {item['id']: item for item in (previous or {}).get('templates', [])}
+    published = {}
+    def remember_publication(template_id, value):
+        timestamp = publication_time(value)
+        if timestamp and (template_id not in published or timestamp < published[template_id]):
+            published[template_id] = timestamp
+    for entry in previous_entries.values():
+        remember_publication(entry['id'], entry.get('publishedAt'))
     releases = [release for release in github.pages('/releases') if RELEASE_PATTERN.fullmatch(release['tag_name']) and not release['draft']]
     releases.sort(key=lambda release: int(RELEASE_PATTERN.fullmatch(release['tag_name'])[1]))
     assets, counts, sources = {}, {}, {}
@@ -306,6 +326,7 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
             if not match or asset.get('state') != 'uploaded':
                 continue
             assets[asset['name']] = asset
+            remember_publication(match[1], asset.get('created_at'))
             counts[match[1]] = counts.get(match[1], 0) + asset['download_count']
             source = sources.setdefault(match[1], {}).setdefault(release['id'], {'releaseId': release['id'], 'downloadCount': 0})
             source['downloadCount'] += asset['download_count']
@@ -330,6 +351,7 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
         asset = github.request(path, 'POST', package, binary=True)
         target['_assets'].append(asset)
         assets[item['assetName']] = asset
+        remember_publication(item['id'], asset.get('created_at'))
         uploads += 1
         print(f"已发布: {item['folder']} → {target['tag_name']}")
         pause(2)
@@ -340,7 +362,10 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
             pending += 1
             old = previous_entries.get(item['id'])
             if old:
-                entries.append({**old, 'downloadCount': counts.get(item['id'], old['downloadCount']), 'downloadSources': list(sources.get(item['id'], {}).values())})
+                retained = {**old, 'downloadCount': counts.get(item['id'], old['downloadCount']), 'downloadSources': list(sources.get(item['id'], {}).values())}
+                if item['id'] in published:
+                    retained['publishedAt'] = published[item['id']]
+                entries.append(retained)
             continue
         old = previous_entries.get(item['id'])
         checksum = item.get('packageSha256')
@@ -353,6 +378,8 @@ def publish(items, github, source_sha, upload_limit=MAX_UPLOADS_PER_RUN, pause=t
             raise ValueError(f"{item['folder']}: Release 附件校验不一致，请勿手工替换附件")
         entry = {key: item[key] for key in ('id', 'revision', 'name', 'description', 'width', 'height', 'folder')}
         entry['packageSha256'] = checksum
+        if item['id'] in published:
+            entry['publishedAt'] = published[item['id']]
         entry.update({key: item[key] for key in ('version', 'author', 'changelog', 'minAppVersion', 'classification') if key in item})
         entry.update({'previewUrl': f"https://raw.githubusercontent.com/{github.repository}/{source_sha}/{quote(item['folder'], safe='')}/{item['previewFile']}",
                       'packageUrl': asset['browser_download_url'], 'downloadCount': counts.get(item['id'], 0),

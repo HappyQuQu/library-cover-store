@@ -19,6 +19,7 @@ class FakeGitHub:
 
     def __init__(self):
         self.releases, self.catalog, self.uploads = [], None, 0
+        self.asset_created_at = '2026-10-01T08:00:00Z'
 
     def read_catalog(self):
         return self.catalog, 'previous' if self.catalog else None
@@ -39,6 +40,7 @@ class FakeGitHub:
         name = parse_qs(urlparse(path).query)['name'][0]
         release = next(release for release in self.releases if release['id'] == release_id)
         asset = {'name': name, 'state': 'uploaded', 'download_count': 0,
+                 'created_at': self.asset_created_at,
                  'digest': f'sha256:{publisher.digest(data)}',
                  'browser_download_url': f"https://github.com/{REPO}/releases/download/{release['tag_name']}/{name}"}
         release['assets'].append(asset)
@@ -94,6 +96,43 @@ class PublishingTests(unittest.TestCase):
         self.assertNotEqual(third['templates'][0]['revision'], first['templates'][0]['revision'])
         client.releases[0]['assets'][1]['download_count'] = 3
         self.assertEqual(self.run_publish(client)['templates'][0]['downloadCount'], 20)
+
+    def test_publication_time_backfills_legacy_catalog_without_repackaging(self):
+        self.template()
+        client = FakeGitHub()
+        first = dict(self.run_publish(client)['templates'][0])
+        self.assertEqual(first['publishedAt'], '2026-10-01T08:00:00Z')
+        del client.catalog['templates'][0]['publishedAt']
+        with patch.object(publisher, 'make_package', side_effect=AssertionError('Date backfill must not repackage')):
+            backfilled = self.run_publish(client)['templates'][0]
+        self.assertEqual(backfilled['publishedAt'], first['publishedAt'])
+        self.assertEqual(backfilled['revision'], first['revision'])
+        self.assertEqual(backfilled['packageSha256'], first['packageSha256'])
+        self.assertEqual(client.uploads, 1)
+
+    def test_template_updates_and_catalog_refreshes_keep_first_publication_date(self):
+        directory = self.template()
+        client = FakeGitHub()
+        first = self.run_publish(client)['templates'][0]
+        client.asset_created_at = '2026-10-20T01:00:00Z'
+        (directory / 'preview.jpg').write_bytes(b'\xff\xd8\xffupdated')
+        pending = self.run_publish(client, limit=0)['templates'][0]
+        self.assertEqual(pending['publishedAt'], first['publishedAt'])
+        updated = self.run_publish(client)['templates'][0]
+        self.assertNotEqual(updated['revision'], first['revision'])
+        self.assertEqual(updated['publishedAt'], first['publishedAt'])
+        # Preserve the recorded first publication even if an old attachment later disappears.
+        client.releases[0]['assets'] = client.releases[0]['assets'][-1:]
+        self.assertEqual(self.run_publish(client)['templates'][0]['publishedAt'], first['publishedAt'])
+
+    def test_unknown_dates_stay_unknown_and_offsets_normalize_to_utc(self):
+        self.assertEqual(publisher.publication_time('2026-10-20T09:00:00+08:00'), '2026-10-20T01:00:00Z')
+        for value in (None, '', 'invalid', '2026-10-20T09:00:00'):
+            self.assertIsNone(publisher.publication_time(value))
+        self.template()
+        client = FakeGitHub()
+        client.asset_created_at = None
+        self.assertNotIn('publishedAt', self.run_publish(client)['templates'][0])
 
     def test_rollover_and_queue_resume(self):
         self.template('一')
