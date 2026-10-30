@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-10-29T23:21:06.529090Z",
+  "generatedAt": "2026-10-30T05:57:35.857767Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -378,11 +378,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/874c42022c92de4099161ee02b9fd98b17c06e34/%E5%90%88%E9%9B%86%E6%9E%81%E5%A4%9C%E5%8F%A0%E6%98%A0/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/c606adf20aa3843bdd55faee950a732c713f07eb554b658669598e33b9dd9962--a3b4807d53bae326ef193eb9d83d84c0910e2e8c5e4d298ec76054555532aeb6.zip",
-      "downloadCount": 9,
+      "downloadCount": 10,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 9
+          "downloadCount": 10
         }
       ]
     },
@@ -455,11 +455,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/874c42022c92de4099161ee02b9fd98b17c06e34/%E5%90%88%E9%9B%86%E8%83%B6%E7%89%87%E9%95%BF%E5%8D%B7/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/3ae4cac3029fae760ffec5666fc14110ce801b0d071d9617b6d1051d0862285c--b77de92141d1ae0106ddf53f9914145cae42356d9dd1780d395f6fd1cc447a0b.zip",
-      "downloadCount": 4,
+      "downloadCount": 5,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 4
+          "downloadCount": 5
         }
       ]
     },
@@ -1375,11 +1375,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/874c42022c92de4099161ee02b9fd98b17c06e34/%E6%A8%AA%E6%99%AF%E7%AB%96%E5%B0%81%E4%B8%89%E5%B9%95%E9%95%BF%E5%BB%8A/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b8e275d9c8d4dc32f3068f6ea5d0bb9d66e6e2deb4be6d7e736cc37f1a9cf93c--77c535ab68dadf375c4a752086d4cb9ed6ae548b88b892cd329c3cb99138adb9.zip",
-      "downloadCount": 5,
+      "downloadCount": 6,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 5
+          "downloadCount": 6
         }
       ]
     },
