@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "HappyQuQu/library-cover-store",
-  "generatedAt": "2026-11-07T10:23:26.722985Z",
+  "generatedAt": "2026-11-07T16:53:02.586298Z",
   "pendingCount": 0,
   "templates": [
     {
@@ -1842,11 +1842,11 @@
       },
       "previewUrl": "https://raw.githubusercontent.com/HappyQuQu/library-cover-store/874c42022c92de4099161ee02b9fd98b17c06e34/%E6%A8%AA%E7%AB%96%E5%8F%8C%E5%9B%BE%E7%A5%A8%E6%A0%B9/preview.jpg",
       "packageUrl": "https://github.com/HappyQuQu/library-cover-store/releases/download/store-00001/b285dcc9a292a96c4a0cef5a295d24c68e2e84501544785ada0e525ea16a0ba5--fbbc62bc7ac0e9d37d09b6990c81fa734f40007c3515673a671394451adeb55e.zip",
-      "downloadCount": 4,
+      "downloadCount": 5,
       "downloadSources": [
         {
           "releaseId": 411414335,
-          "downloadCount": 4
+          "downloadCount": 5
         }
       ]
     },
