@@ -21,6 +21,9 @@ MAX_CONTENT_BYTES = 5 * 1024 * 1024
 MAX_FONT_BYTES = 50 * 1024 * 1024
 BATCH_SIZE = 200
 MAX_UPLOADS_PER_RUN = 100
+LEGACY_ARTWORK_SLOTS = 9
+MAX_ARTWORK_SLOTS = 24
+EXTENDED_ARTWORK_MIN_VERSION = (1, 18, 0)
 RESERVED = {'scripts', 'tests', 'doc', 'docs', 'examples', 'node_modules'}
 ASSET_PATTERN = re.compile(r'^([a-f0-9]{64})--([a-f0-9]{64})\.zip$')
 RELEASE_PATTERN = re.compile(r'^store-(\d{5,})$')
@@ -114,9 +117,9 @@ def artwork_summary(canvas):
             if obj.get('visible') is False or obj.get('opacity', 1) == 0:
                 continue
             variable, source = obj.get('posterVar', ''), obj.get('src', '')
-            match = re.fullmatch(r'post([1-9])', variable) if isinstance(variable, str) else None
+            match = re.fullmatch(r'post([1-9][0-9]*)', variable) if isinstance(variable, str) else None
             if not match and isinstance(source, str):
-                match = re.search(r'\{\{poster([1-9])\}\}|/posters/(?:backdrops/)?([1-9])\.(?:jpg|jpeg|png)', source)
+                match = re.search(r'\{\{poster([1-9][0-9]*)\}\}|/posters/(?:backdrops/)?([1-9][0-9]*)\.(?:jpg|jpeg|png)', source, re.IGNORECASE)
             if match:
                 highest = max(highest, int(next(group for group in match.groups() if group)))
             elif obj.get('isPoster') or source == '{{poster}}':
@@ -209,14 +212,25 @@ def scan_templates(root):
         for filename, file in fonts:
             revision_hash.update(b'\0' + filename.encode('utf-8') + b'\0' + file.read_bytes())
         revision = revision_hash.hexdigest()
-        result.append({**metadata(data), 'id': template_id, 'revision': revision, 'name': name, 'description': description,
+        info = metadata(data)
+        artwork = artwork_summary(canvas)
+        count = artwork['artworkCount']
+        if count > MAX_ARTWORK_SLOTS:
+            raise ValueError(f'{directory.name}: 海报图位不能超过 {MAX_ARTWORK_SLOTS}')
+        if count > LEGACY_ARTWORK_SLOTS:
+            minimum = tuple(map(int, info.get('minAppVersion', '0.0.0').split('.')))
+            if minimum < EXTENDED_ARTWORK_MIN_VERSION:
+                raise ValueError(f'{directory.name}: 超过 {LEGACY_ARTWORK_SLOTS} 个海报图位时，minAppVersion 至少为 1.18.0')
+            # Studio 1.17 rejects the whole catalog if the original field exceeds nine.
+            artwork.update(artworkCount=LEGACY_ARTWORK_SLOTS, extendedArtworkCount=count)
+        result.append({**info, 'id': template_id, 'revision': revision, 'name': name, 'description': description,
                        'width': data['width'], 'height': data['height'], 'folder': directory.name,
                        'previewFile': preview_file.name, 'templatePath': template_file, 'previewPath': preview_file, 'fontPaths': fonts,
                        'assetName': f'{template_id}--{revision}.zip'})
         if classifications is not None:
             if directory.name not in classifications:
                 raise ValueError(f'{directory.name}: 缺少商店分类，请补齐 classifications.json')
-            result[-1]['classification'] = {**classifications[directory.name], **artwork_summary(canvas)}
+            result[-1]['classification'] = {**classifications[directory.name], **artwork}
     if classifications is not None and set(classifications) != {item['folder'] for item in result}:
         raise ValueError('classifications.json 包含不存在的模板文件夹')
     return result

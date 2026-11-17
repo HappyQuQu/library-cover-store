@@ -250,6 +250,43 @@ class PublishingTests(unittest.TestCase):
         self.assertEqual(publisher.artwork_summary(canvas), {'artworkType': 'mixed', 'artworkCount': 3})
         self.assertEqual(publisher.artwork_summary({'posterBackground': {'source': 'backdrop'}}), {'artworkType': 'backdrop', 'artworkCount': 1})
 
+    def test_publishes_extended_slots_without_breaking_the_legacy_catalog(self):
+        directory = self.template()
+        (self.root / 'classifications.json').write_text(json.dumps({'version': 1, 'templates': {
+            directory.name: {'recommendedUses': ['collection'], 'tags': []}
+        }}))
+        filename = directory / 'template.json'
+        data = json.loads(filename.read_text())
+        canvas = {'objects': [
+            {'posterVar': 'post10'},
+            {'src': '{{poster23}}'},
+            {'src': '/api/templates/posters/backdrops/24.jpg', 'artworkSource': 'backdrop'}
+        ]}
+        data['canvasJson'] = json.dumps(canvas)
+        filename.write_text(json.dumps(data))
+        with self.assertRaisesRegex(ValueError, 'minAppVersion'):
+            publisher.scan_templates(self.root)
+
+        data['minAppVersion'] = '1.18.0'
+        filename.write_text(json.dumps(data))
+        client = FakeGitHub()
+        entry = self.run_publish(client)['templates'][0]
+        self.assertEqual(client.uploads, 1)
+        self.assertEqual(entry['classification'], {
+            'recommendedUses': ['collection'], 'tags': [], 'artworkType': 'mixed',
+            'artworkCount': 9, 'extendedArtworkCount': 24
+        })
+        self.assertEqual(entry['minAppVersion'], '1.18.0')
+        package = publisher.make_package(publisher.scan_templates(self.root)[0])
+        with zipfile.ZipFile(io.BytesIO(package)) as archive:
+            self.assertEqual(json.loads(archive.read('template.json')), data)
+
+        canvas['objects'].append({'posterVar': 'post25'})
+        data['canvasJson'] = json.dumps(canvas)
+        filename.write_text(json.dumps(data))
+        with self.assertRaisesRegex(ValueError, '24'):
+            publisher.scan_templates(self.root)
+
     def test_per_slot_sources_share_one_media_slot_and_ignore_unbound_overrides(self):
         canvas = {'posterSource': 'backdrop', 'objects': [
             {'posterVar': 'post1'}, {'posterVar': 'post1', 'artworkSource': 'poster'},
