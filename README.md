@@ -168,6 +168,7 @@
 - `tags`：最多 12 个不重复的标签，每个不超过 40 字符，用于搜索，不作为额外的风格筛选菜单。
 - 发布脚本从真实画布生成 `classification.artworkType`：`poster`（海报）、`backdrop`（横向剧照）、`mixed`（混合素材）、`none`（无需图片）。横向剧照的缺图回退逻辑保持有效。自 1.14.0 起，图片图层的 `artworkSource` 可单独设为 `poster` 或 `backdrop`，省略或无效值时跟随画布 `posterSource`；发布脚本按实际图位汇总素材类型，相同编号仍只计一个素材槽位。
 - `classification.artworkCount` 根据图片变量及背景绑定计算，重复使用相同变量的图层不重复计数；表示排版使用的素材槽位，素材不足时应用会复用已有图片。
+- 图位范围为 `post1` 到 `post24`。使用 10–24 号图位的模板须声明 `minAppVersion` 至少为 `1.18.0`。发布脚本在 `classification.extendedArtworkCount` 记录实际数量，原 `artworkCount` 字段保留在旧版可读取的范围内。
 - 成品横版、竖版、方形由 `width` / `height` 判断，独立于图片素材类型。
 
 分类仅写入商店目录，不修改模板 JSON、ZIP 或版本指纹。补充或调整分类不会制造模板更新、重新上传 ZIP 或清空累计下载次数。推荐用途与标签从索引读取，素材类型从画布读取，不根据模板名称猜测。
