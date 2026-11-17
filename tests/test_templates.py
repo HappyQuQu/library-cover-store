@@ -16,7 +16,7 @@ SPEC.loader.exec_module(publisher)
 class CommunityTemplateTests(unittest.TestCase):
     def test_all_templates_have_reviewed_classifications(self):
         items = publisher.scan_templates(ROOT)
-        self.assertEqual(len(items), 69)
+        self.assertEqual(len(items), 70)
         by_folder = {item['folder']: item['classification'] for item in items}
         self.assertEqual(by_folder['柔雾居中标题']['artworkType'], 'none')
         self.assertEqual(by_folder['横幅背景海报列']['artworkType'], 'mixed')
@@ -28,6 +28,10 @@ class CommunityTemplateTests(unittest.TestCase):
         self.assertEqual(by_folder['横竖双图票根']['artworkCount'], 1)
         ticket = next(item for item in items if item['folder'] == '横竖双图票根')
         self.assertEqual(ticket['minAppVersion'], '1.14.0')
+        archive = next(item for item in items if item['folder'] == '合集映像档案')
+        self.assertEqual(archive['minAppVersion'], '1.18.0')
+        self.assertEqual(archive['classification']['extendedArtworkCount'], 24)
+        self.assertEqual(archive['classification']['recommendedUses'], ['collection'])
         for item in items:
             self.assertTrue(item['classification']['recommendedUses'])
             self.assertTrue(item['classification']['tags'])
